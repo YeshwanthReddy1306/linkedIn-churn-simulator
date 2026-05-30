@@ -1,0 +1,22 @@
+# Python virtual environments & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & System directories
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Workspace/System temp files
+.gemini/
+*.log

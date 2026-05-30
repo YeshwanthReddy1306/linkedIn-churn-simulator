@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aegis Churn Analytics & Multi-Model Simulator</title>
+    <!-- Google Fonts: Outfit for headers, Inter for UI text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Chart.js for data visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="main-header">
+            <div class="logo-area">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="url(#header-grad)" />
+                        <path d="M12 6V12L16 14" stroke="url(#header-grad)" stroke-width="2" stroke-linecap="round" />
+                        <defs>
+                            <linearGradient id="header-grad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+                                <stop offset="0%" stop-color="#6366f1" />
+                                <stop offset="100%" stop-color="#06b6d4" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <h1>AEGIS <span class="gradient-text">MULTI-MODEL CHURN</span></h1>
+            </div>
+            <div class="header-tagline">
+                <span class="badge">Scikit-Learn ML Engines</span>
+                <span class="badge secondary">Explainable AI (XAI)</span>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="dashboard-grid">
+            
+            <!-- LEFT COLUMN: Input Control & Customer Profiles -->
+            <section class="left-column">
+                
+                <!-- Business KPI Section -->
+                <div class="kpi-panel">
+                    <div class="kpi-card">
+                        <span class="kpi-label">Active Database</span>
+                        <span class="kpi-val" id="kpi-total">1,000</span>
+                        <span class="kpi-sub">Customers Modelled</span>
+                    </div>
+                    <div class="kpi-card">
+                        <span class="kpi-label">Avg Churn Rate</span>
+                        <span class="kpi-val highlight-rose" id="kpi-churn-rate">36.0%</span>
+                        <span class="kpi-sub">Baseline Metric</span>
+                    </div>
+                    <div class="kpi-card">
+                        <span class="kpi-label">LR Test Accuracy</span>
+                        <span class="kpi-val highlight-cyan" id="kpi-lr-acc">78.5%</span>
+                        <span class="kpi-sub">ROC-AUC: 0.842</span>
+                    </div>
+                    <div class="kpi-card">
+                        <span class="kpi-label">DT Test Accuracy</span>
+                        <span class="kpi-val highlight-purple" id="kpi-dt-acc">77.5%</span>
+                        <span class="kpi-sub">ROC-AUC: 0.814</span>
+                    </div>
+                </div>
+
+                <!-- Customer Directory / Presets -->
+                <div class="glass-card directory-card">
+                    <div class="card-header">
+                        <div class="card-icon blue-glow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <h3>Customer Directory & Quick Archetypes</h3>
+                    </div>
+                    <p class="section-desc">Select a baseline customer profile below to load their features instantly into the ML churn simulator.</p>
+                    <div class="archetypes-list" id="archetypes-container">
+                        <!-- Loaded dynamically via JS -->
+                        <div class="loading-spinner"></div>
+                    </div>
+                </div>
+
+                <!-- Churn Feature Configurator -->
+                <div class="glass-card config-card">
+                    <div class="card-header">
+                        <div class="card-icon cyan-glow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+                        </div>
+                        <h3>Interactive Feature Configurator</h3>
+                    </div>
+                    <form class="feature-form" id="feature-form" onsubmit="return false;">
+                        
+                        <!-- Demographic Row: Senior Citizen & Partner -->
+                        <div class="form-row">
+                            <!-- Senior Citizen -->
+                            <div class="form-group half-width">
+                                <label>Senior Citizen</label>
+                                <div class="toggle-control" id="senior-control">
+                                    <button type="button" class="toggle-btn" data-val="Yes">Yes</button>
+                                    <button type="button" class="toggle-btn active" data-val="No">No</button>
+                                </div>
+                            </div>
+
+                            <!-- Partner / Dependents -->
+                            <div class="form-group half-width">
+                                <label>Partner &amp; Dependents</label>
+                                <div class="toggle-control" id="partner-control">
+                                    <button type="button" class="toggle-btn" data-val="Yes">Yes</button>
+                                    <button type="button" class="toggle-btn active" data-val="No">No</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tenure Input -->
+                        <div class="form-group">
+                            <div class="slider-header">
+                                <label for="tenure-input">Tenure (Contract Months)</label>
+                                <span class="slider-badge" id="tenure-value">12 months</span>
+                            </div>
+                            <input type="range" id="tenure-input" class="modern-slider" min="1" max="72" value="12">
+                            <div class="slider-bounds">
+                                <span>1 month</span>
+                                <span>72 months (6 yrs)</span>
+                            </div>
+                        </div>
+
+                        <!-- Monthly Charges Input -->
+                        <div class="form-group">
+                            <div class="slider-header">
+                                <label for="charges-input">Monthly Charges ($ USD)</label>
+                                <span class="slider-badge" id="charges-value">$75.00</span>
+                            </div>
+                            <input type="range" id="charges-input" class="modern-slider" min="15" max="130" value="75" step="1">
+                            <div class="slider-bounds">
+                                <span>$15.00</span>
+                                <span>$130.00</span>
+                            </div>
+                        </div>
+
+                        <!-- Support Tickets Input -->
+                        <div class="form-group">
+                            <div class="slider-header">
+                                <label for="tickets-input">Support Tickets (Past Year)</label>
+                                <span class="slider-badge alert-badge" id="tickets-value">3 tickets</span>
+                            </div>
+                            <input type="range" id="tickets-input" class="modern-slider" min="0" max="9" value="3">
+                            <div class="slider-bounds">
+                                <span>0 tickets (Perfect)</span>
+                                <span>9 tickets (Critical)</span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <!-- Contract Type -->
+                            <div class="form-group half-width">
+                                <label>Contract Agreement</label>
+                                <div class="segmented-control" id="contract-control">
+                                    <button type="button" class="segment-btn active" data-val="Month-to-month">Monthly</button>
+                                    <button type="button" class="segment-btn" data-val="One year">1 Year</button>
+                                    <button type="button" class="segment-btn" data-val="Two year">2 Year</button>
+                                </div>
+                            </div>
+                            
+                            <!-- Internet Service -->
+                            <div class="form-group half-width">
+                                <label>Internet Service Technology</label>
+                                <div class="segmented-control" id="internet-control">
+                                    <button type="button" class="segment-btn active" data-val="Fiber optic">Fiber</button>
+                                    <button type="button" class="segment-btn" data-val="DSL">DSL</button>
+                                    <button type="button" class="segment-btn" data-val="No">None</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <!-- Tech Support -->
+                            <div class="form-group half-width">
+                                <label>Dedicated Tech Support</label>
+                                <div class="toggle-control" id="techsupport-control">
+                                    <button type="button" class="toggle-btn" data-val="Yes">Active</button>
+                                    <button type="button" class="toggle-btn active" data-val="No">Inactive</button>
+                                </div>
+                            </div>
+
+                            <!-- Paperless Billing -->
+                            <div class="form-group half-width">
+                                <label>Paperless Invoicing</label>
+                                <div class="toggle-control" id="paperless-control">
+                                    <button type="button" class="toggle-btn active" data-val="Yes">Yes</button>
+                                    <button type="button" class="toggle-btn" data-val="No">No</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Payment Method -->
+                        <div class="form-group">
+                            <label for="payment-input">Billing Settlement Method</label>
+                            <select id="payment-input" class="modern-select">
+                                <option value="Electronic check">Electronic Check (Highly Correlated with Churn)</option>
+                                <option value="Mailed check">Mailed Check</option>
+                                <option value="Bank transfer">Bank Transfer (Automatic)</option>
+                                <option value="Credit card">Credit Card (Automatic)</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- RIGHT COLUMN: ML Predictions, Visualizations, and Interventions -->
+            <section class="right-column">
+                
+                <!-- PREDICTION DISPLAY CARD (MULTI-MODEL EXTENSION) -->
+                <div class="glass-card score-card">
+                    <!-- Model Selector Switch at the Top -->
+                    <div class="model-selector-container">
+                        <span class="model-selector-label">Active Predictive Engine:</span>
+                        <div class="model-segmented-control" id="model-selector">
+                            <button type="button" class="model-btn active" data-val="lr">Logistic Regression (Linear)</button>
+                            <button type="button" class="model-btn" data-val="dt">Decision Tree (Hierarchical splits)</button>
+                        </div>
+                    </div>
+                    
+                    <div class="prediction-wrapper">
+                        <!-- SVG Radial Meter -->
+                        <div class="radial-gauge-container">
+                            <svg class="radial-gauge" viewBox="0 0 200 200">
+                                <circle class="gauge-bg" cx="100" cy="100" r="85"></circle>
+                                <circle class="gauge-fill" id="gauge-fill" cx="100" cy="100" r="85"></circle>
+                            </svg>
+                            <div class="gauge-center">
+                                <span class="probability-label">Churn Risk</span>
+                                <span class="probability-pct" id="probability-display">--%</span>
+                                <span class="probability-status" id="status-display">LOADING</span>
+                            </div>
+                        </div>
+
+                        <div class="prediction-info">
+                            <h3 class="predict-title">Churn Probability Diagnosis</h3>
+                            <p class="predict-desc" id="diagnostic-explanation">
+                                Calculating log-odds from the underlying Scikit-Learn Logistic Regression model using standard sigmoid formulation.
+                            </p>
+                            
+                            <!-- Dynamic Explanation Card (Conditional Log-Odds vs Split Path stepper) -->
+                            <div class="math-card">
+                                <span class="math-title" id="math-box-title">Underlying Logistic Regression Formula:</span>
+                                <div class="math-body-wrapper">
+                                    <!-- LR View -->
+                                    <div id="lr-diagnostic-view">
+                                        <code class="math-expr">P(Churn) = 1 / (1 + e^-z)</code>
+                                        <div class="math-expanded" id="math-expanded">
+                                            z = Intercept + &sum;(&beta;<sub>i</sub> &times; X<sub>i</sub>) = --
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- DT View -->
+                                    <div id="dt-diagnostic-view" class="hidden">
+                                        <div class="tree-rules-path" id="tree-path-container">
+                                            <!-- Loaded dynamically via JS -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RETENTION INTERVENTION PLAYBOOK -->
+                <div class="glass-card playbook-card">
+                    <div class="card-header">
+                        <div class="card-icon red-glow">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                        </div>
+                        <h3>Proactive Retention Intervention Playbook</h3>
+                    </div>
+                    <p class="section-desc">Apply customized operational actions below to address specific customer pain-points and instantly simulate risk reduction.</p>
+                    
+                    <div class="playbook-grid">
+                        <!-- Strategy 1: Loyalty Discount -->
+                        <div class="playbook-item" id="strategy-discount" onclick="applyIntervention('discount')">
+                            <div class="playbook-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12" y2="6"></line><path d="M8 9.5a2.5 2.5 0 0 1 2-2.5h2a2.5 2.5 0 0 1 0 5h-4a2.5 2.5 0 0 0 0 5h2a2.5 2.5 0 0 0 2-2.5"></path></svg>
+                            </div>
+                            <div class="playbook-content">
+                                <span class="playbook-title">Apply Loyalty Discount</span>
+                                <span class="playbook-desc">Reduces Monthly Charges by 15% to ease pricing pressure.</span>
+                            </div>
+                            <div class="playbook-action">Apply</div>
+                        </div>
+
+                        <!-- Strategy 2: Contract Commitment Upgrade -->
+                        <div class="playbook-item" id="strategy-contract" onclick="applyIntervention('contract')">
+                            <div class="playbook-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                            </div>
+                            <div class="playbook-content">
+                                <span class="playbook-title">Upgrade to Annual Contract</span>
+                                <span class="playbook-desc">Transition customer to a stable, committed 1-Year Agreement.</span>
+                            </div>
+                            <div class="playbook-action">Apply</div>
+                        </div>
+
+                        <!-- Strategy 3: Technical Support Concierge -->
+                        <div class="playbook-item" id="strategy-tech" onclick="applyIntervention('support')">
+                            <div class="playbook-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                            </div>
+                            <div class="playbook-content">
+                                <span class="playbook-title">Equip Dedicated Tech Support</span>
+                                <span class="playbook-desc">Includes tech-support package to resolve system complications.</span>
+                            </div>
+                            <div class="playbook-action">Apply</div>
+                        </div>
+
+                        <!-- Strategy 4: Resolve Outstanding Tickets -->
+                        <div class="playbook-item" id="strategy-tickets" onclick="applyIntervention('resolve')">
+                            <div class="playbook-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
+                            <div class="playbook-content">
+                                <span class="playbook-title">Resolve Customer Support Tickets</span>
+                                <span class="playbook-desc">Clears out open technical and operational grievances.</span>
+                            </div>
+                            <div class="playbook-action">Apply</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ANALYTICS PANEL & CHARTS -->
+                <div class="charts-row">
+                    <div class="glass-card chart-card">
+                        <div class="card-header">
+                            <div class="card-icon purple-glow">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                            </div>
+                            <h3 id="drivers-chart-title">Customer Driver Impact</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="importance-chart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card chart-card">
+                        <div class="card-header">
+                            <div class="card-icon gold-glow">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+                            </div>
+                            <h3>Baseline Segment Churn Risk</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="segments-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="app-footer">
+            <p>Developed using <strong>Python Scikit-Learn Dual ML Core</strong> &amp; <strong>Vanilla CSS / ES6 Javascript</strong>. Fits mathematical models in browser with 0 server dependency.</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="model_data.js"></script>
+    <script src="chart_config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

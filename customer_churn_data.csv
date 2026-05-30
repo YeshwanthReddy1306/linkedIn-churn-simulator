@@ -1,0 +1,1001 @@
+CustomerID,SeniorCitizen,Partner,Tenure,Contract,InternetService,TechSupport,MonthlyCharges,TotalCharges,SupportTickets,PaymentMethod,PaperlessBilling,Churn
+US-1000,0,Yes,7,Two year,Fiber optic,No,111.45,744.06,1,Credit card,No,0
+US-1001,0,No,35,One year,No,No,29.71,1050.62,2,Bank transfer,Yes,0
+US-1002,0,No,55,Two year,No,No,20.67,1152.47,0,Electronic check,No,0
+US-1003,0,No,14,Two year,Fiber optic,Yes,79.36,1093.62,1,Bank transfer,Yes,0
+US-1004,1,No,10,Month-to-month,DSL,Yes,67.61,685.18,1,Electronic check,No,1
+US-1005,1,No,16,Month-to-month,DSL,No,52.6,832.73,0,Credit card,No,1
+US-1006,1,No,54,Month-to-month,DSL,No,71.85,3874.4,1,Mailed check,Yes,0
+US-1007,0,No,70,Month-to-month,Fiber optic,Yes,95.83,6727.76,0,Electronic check,No,0
+US-1008,0,Yes,44,Month-to-month,DSL,Yes,55.52,2428.02,2,Electronic check,No,1
+US-1009,0,No,45,Month-to-month,Fiber optic,No,107.47,4821.27,0,Credit card,Yes,1
+US-1010,1,Yes,56,Month-to-month,Fiber optic,Yes,92.2,5190.27,0,Mailed check,No,0
+US-1011,0,No,57,Month-to-month,DSL,Yes,72.35,4121.77,3,Credit card,Yes,0
+US-1012,0,No,21,Month-to-month,No,No,29.14,630.64,2,Electronic check,No,1
+US-1013,0,Yes,68,Month-to-month,Fiber optic,No,77.44,5241.94,3,Electronic check,No,0
+US-1014,1,No,50,Month-to-month,DSL,Yes,45.07,2230.72,3,Electronic check,Yes,1
+US-1015,1,No,33,Month-to-month,No,No,29.81,970.04,3,Mailed check,No,1
+US-1016,0,Yes,7,Month-to-month,DSL,No,72.18,498.04,3,Electronic check,Yes,1
+US-1017,0,No,70,Month-to-month,Fiber optic,Yes,72.5,5053.95,1,Electronic check,Yes,0
+US-1018,0,No,15,Two year,Fiber optic,Yes,107.49,1617.89,0,Bank transfer,Yes,0
+US-1019,0,Yes,32,Month-to-month,Fiber optic,Yes,90.6,2905.72,0,Mailed check,Yes,0
+US-1020,0,No,20,Month-to-month,No,No,21.11,408.73,1,Electronic check,No,0
+US-1021,1,Yes,15,Month-to-month,Fiber optic,Yes,109.54,1630.82,1,Mailed check,Yes,0
+US-1022,0,No,48,Two year,Fiber optic,Yes,78.85,3774.5,1,Bank transfer,Yes,0
+US-1023,0,No,71,Two year,DSL,Yes,73.42,5195.35,0,Electronic check,No,0
+US-1024,0,No,21,Two year,DSL,No,51.17,1031.14,1,Electronic check,Yes,0
+US-1025,0,No,42,One year,No,No,25.36,1063.84,0,Electronic check,Yes,0
+US-1026,1,No,26,Month-to-month,Fiber optic,Yes,80.04,2074.58,1,Bank transfer,Yes,1
+US-1027,0,No,14,Month-to-month,Fiber optic,No,94.56,1318.92,2,Credit card,No,1
+US-1028,0,Yes,57,Month-to-month,Fiber optic,No,100.78,5729.28,2,Electronic check,Yes,0
+US-1029,1,No,37,Two year,Fiber optic,No,78.56,2918.88,1,Electronic check,Yes,0
+US-1030,0,Yes,58,One year,DSL,Yes,60.63,3552.92,0,Credit card,Yes,0
+US-1031,1,No,21,One year,Fiber optic,No,91.11,1900.8,2,Credit card,No,1
+US-1032,1,Yes,69,Month-to-month,Fiber optic,Yes,73.2,5071.8,1,Bank transfer,Yes,0
+US-1033,0,Yes,3,Two year,DSL,Yes,69.55,214.15,2,Credit card,No,1
+US-1034,0,Yes,37,Month-to-month,DSL,No,55.07,2038.12,3,Bank transfer,No,1
+US-1035,0,No,49,Month-to-month,DSL,No,62.24,3044.6,0,Bank transfer,No,0
+US-1036,0,Yes,19,Month-to-month,Fiber optic,No,93.17,1768.98,3,Electronic check,Yes,1
+US-1037,1,No,12,One year,No,No,24.16,307.16,2,Mailed check,Yes,0
+US-1038,0,Yes,61,Month-to-month,DSL,Yes,48.22,2924.35,2,Electronic check,No,0
+US-1039,0,Yes,41,Two year,DSL,No,57.7,2361.57,0,Credit card,Yes,0
+US-1040,1,No,33,Month-to-month,DSL,Yes,58.57,1951.55,4,Credit card,Yes,1
+US-1041,0,No,50,One year,Fiber optic,No,103.01,5165.26,0,Bank transfer,Yes,0
+US-1042,1,Yes,68,Month-to-month,Fiber optic,Yes,107.8,7313.56,1,Electronic check,No,1
+US-1043,0,No,71,Month-to-month,Fiber optic,No,94.52,6708.18,1,Electronic check,No,0
+US-1044,0,No,33,Two year,Fiber optic,No,73.91,2449.95,1,Electronic check,Yes,1
+US-1045,0,No,24,Two year,Fiber optic,No,80.66,1945.79,1,Electronic check,No,0
+US-1046,0,Yes,61,One year,No,No,19.98,1233.41,0,Bank transfer,Yes,0
+US-1047,0,Yes,61,Two year,No,No,19.5,1195.26,0,Credit card,No,0
+US-1048,0,No,28,One year,DSL,No,55.98,1575.72,1,Electronic check,Yes,0
+US-1049,1,Yes,58,Month-to-month,DSL,No,51.88,3014.18,1,Electronic check,No,0
+US-1050,0,No,43,One year,DSL,Yes,51.55,2240.35,1,Bank transfer,Yes,0
+US-1051,0,No,41,Month-to-month,DSL,Yes,46.64,1905.91,1,Electronic check,Yes,0
+US-1052,0,No,39,Month-to-month,No,No,18.21,710.91,5,Credit card,Yes,1
+US-1053,0,No,49,Month-to-month,Fiber optic,Yes,74.62,3641.16,3,Electronic check,Yes,0
+US-1054,0,No,17,One year,DSL,No,50.17,834.71,1,Electronic check,No,0
+US-1055,0,Yes,70,One year,Fiber optic,No,89.39,6262.17,1,Electronic check,Yes,0
+US-1056,1,No,70,Month-to-month,Fiber optic,No,92.97,6497.04,1,Electronic check,Yes,1
+US-1057,1,Yes,65,One year,DSL,Yes,49.22,3198.43,0,Mailed check,Yes,0
+US-1058,1,No,5,Two year,Fiber optic,Yes,89.12,469.87,0,Electronic check,Yes,0
+US-1059,0,No,2,Month-to-month,Fiber optic,No,85.38,194.16,1,Mailed check,Yes,0
+US-1060,0,No,22,Month-to-month,Fiber optic,No,78.25,1754.86,3,Mailed check,Yes,0
+US-1061,0,No,57,Two year,DSL,No,45.21,2601.53,0,Electronic check,Yes,0
+US-1062,0,No,66,Month-to-month,DSL,No,59.01,3930.71,6,Electronic check,Yes,1
+US-1063,0,Yes,16,One year,Fiber optic,Yes,100.85,1620.15,0,Mailed check,Yes,0
+US-1064,0,Yes,51,Month-to-month,DSL,No,51.79,2627.74,2,Bank transfer,No,0
+US-1065,0,No,39,Month-to-month,Fiber optic,No,75.93,2946.26,1,Credit card,No,0
+US-1066,1,Yes,40,One year,Fiber optic,Yes,109.92,4417.74,0,Electronic check,Yes,0
+US-1067,0,Yes,38,One year,Fiber optic,Yes,82.38,3131.21,0,Electronic check,No,0
+US-1068,1,Yes,60,Two year,No,No,20.68,1242.69,1,Electronic check,No,0
+US-1069,0,Yes,59,Two year,Fiber optic,Yes,108.57,6397.39,1,Mailed check,Yes,0
+US-1070,0,Yes,10,Two year,DSL,No,69.51,688.66,4,Bank transfer,No,1
+US-1071,1,Yes,64,One year,Fiber optic,No,90.18,5777.28,1,Credit card,Yes,0
+US-1072,1,Yes,63,Month-to-month,Fiber optic,No,92.02,5781.43,2,Bank transfer,No,0
+US-1073,0,Yes,49,Month-to-month,Fiber optic,No,79.8,3914.06,3,Electronic check,Yes,0
+US-1074,0,No,64,Month-to-month,DSL,No,47.35,3053.07,1,Mailed check,Yes,0
+US-1075,0,Yes,32,Two year,No,No,24.88,764.16,1,Credit card,Yes,0
+US-1076,0,Yes,7,Month-to-month,Fiber optic,Yes,74.43,497.89,1,Electronic check,No,1
+US-1077,1,No,21,One year,DSL,No,58.48,1238.21,2,Mailed check,No,1
+US-1078,0,Yes,20,Month-to-month,DSL,No,73.21,1484.66,0,Credit card,Yes,0
+US-1079,1,No,26,Two year,DSL,No,73.59,1905.99,2,Bank transfer,Yes,0
+US-1080,0,No,68,Two year,No,No,20.87,1389.19,1,Bank transfer,Yes,0
+US-1081,0,Yes,15,Month-to-month,DSL,No,63.72,977.28,1,Electronic check,Yes,1
+US-1082,0,Yes,14,Two year,DSL,No,59.22,816.91,1,Mailed check,Yes,1
+US-1083,1,No,27,Month-to-month,No,No,28.51,764.35,1,Electronic check,Yes,1
+US-1084,0,No,40,Month-to-month,DSL,Yes,53.14,2130.39,3,Bank transfer,No,1
+US-1085,0,No,58,Two year,DSL,No,45.11,2606.38,2,Electronic check,No,0
+US-1086,0,No,28,Month-to-month,DSL,Yes,49.88,1383.5,3,Credit card,Yes,1
+US-1087,0,Yes,26,Two year,DSL,Yes,55.49,1429.87,0,Credit card,Yes,0
+US-1088,0,No,63,Month-to-month,DSL,Yes,54.47,3459.48,1,Mailed check,No,0
+US-1089,0,Yes,66,Month-to-month,Fiber optic,Yes,105.61,6987.65,3,Electronic check,No,0
+US-1090,1,No,25,Two year,DSL,Yes,65.42,1644.12,0,Electronic check,No,0
+US-1091,0,No,3,Month-to-month,DSL,No,53.99,129.17,4,Bank transfer,No,1
+US-1092,0,No,72,Two year,Fiber optic,No,90.6,6531.87,0,Bank transfer,No,0
+US-1093,0,No,44,Two year,Fiber optic,Yes,74.3,3277.06,1,Bank transfer,Yes,0
+US-1094,0,Yes,42,Month-to-month,Fiber optic,Yes,110.42,4618.47,0,Electronic check,Yes,0
+US-1095,0,Yes,6,Month-to-month,Fiber optic,Yes,112.09,676.42,0,Mailed check,No,1
+US-1096,0,Yes,39,Month-to-month,DSL,Yes,74.39,2916.98,2,Bank transfer,Yes,0
+US-1097,0,Yes,52,Month-to-month,Fiber optic,Yes,109.08,5680.7,0,Mailed check,Yes,0
+US-1098,1,No,23,Month-to-month,Fiber optic,No,77.83,1779.89,1,Bank transfer,Yes,1
+US-1099,1,Yes,50,Month-to-month,Fiber optic,Yes,72.08,3604.2,0,Bank transfer,No,0
+US-1100,1,Yes,43,Month-to-month,No,No,24.96,1084.24,1,Electronic check,No,1
+US-1101,0,No,19,Month-to-month,DSL,No,72.38,1376.11,1,Electronic check,Yes,1
+US-1102,0,No,69,Two year,Fiber optic,Yes,77.98,5399.43,0,Mailed check,Yes,0
+US-1103,0,No,51,Two year,DSL,No,45.21,2311.65,3,Electronic check,No,0
+US-1104,0,No,11,One year,Fiber optic,No,106.25,1180.04,1,Bank transfer,Yes,0
+US-1105,0,Yes,12,Month-to-month,Fiber optic,No,73.46,893.84,1,Bank transfer,Yes,1
+US-1106,0,Yes,8,Two year,No,No,22.96,167.68,2,Credit card,No,0
+US-1107,0,No,24,Month-to-month,DSL,No,65.37,1569.63,8,Bank transfer,Yes,1
+US-1108,0,No,41,One year,Fiber optic,Yes,80.66,3302.07,0,Electronic check,Yes,1
+US-1109,1,Yes,36,Two year,Fiber optic,Yes,73.78,2671.74,2,Electronic check,No,0
+US-1110,0,No,72,Month-to-month,Fiber optic,No,104.65,7541.75,3,Credit card,Yes,0
+US-1111,1,Yes,55,One year,Fiber optic,Yes,98.36,5406.98,0,Electronic check,No,0
+US-1112,0,Yes,9,Two year,Fiber optic,No,114.48,1011.09,0,Bank transfer,Yes,0
+US-1113,0,No,47,Two year,Fiber optic,Yes,85.49,3994.08,0,Bank transfer,Yes,0
+US-1114,0,No,15,One year,DSL,Yes,46.85,707.41,2,Electronic check,Yes,0
+US-1115,0,No,48,Month-to-month,Fiber optic,No,103.05,4935.64,0,Electronic check,Yes,0
+US-1116,0,Yes,42,Month-to-month,DSL,No,60.65,2557.29,2,Mailed check,No,1
+US-1117,1,No,60,Month-to-month,No,No,20.56,1208.95,1,Credit card,No,0
+US-1118,0,Yes,70,Two year,Fiber optic,No,105.18,7386.49,0,Electronic check,No,0
+US-1119,0,Yes,12,Month-to-month,No,No,20.45,255.36,1,Credit card,Yes,0
+US-1120,0,No,2,Two year,DSL,Yes,52.82,107.13,0,Mailed check,No,0
+US-1121,0,No,7,Month-to-month,No,No,19.11,159.02,0,Credit card,Yes,1
+US-1122,0,No,3,Month-to-month,No,No,22.79,82.6,3,Electronic check,No,1
+US-1123,1,No,3,Month-to-month,Fiber optic,No,88.85,259.42,3,Electronic check,No,1
+US-1124,0,No,27,One year,Fiber optic,Yes,93.16,2516.48,0,Credit card,Yes,0
+US-1125,0,No,40,Month-to-month,DSL,Yes,66.27,2621.34,3,Credit card,Yes,0
+US-1126,0,Yes,33,Month-to-month,No,No,28.87,968.67,2,Mailed check,Yes,0
+US-1127,0,Yes,1,Month-to-month,Fiber optic,No,76.2,71.76,1,Bank transfer,Yes,1
+US-1128,1,Yes,8,Month-to-month,DSL,Yes,46.63,343.38,1,Credit card,No,1
+US-1129,0,Yes,32,Month-to-month,DSL,Yes,45.56,1440.19,1,Electronic check,Yes,0
+US-1130,0,No,48,Two year,No,No,19.72,959.62,1,Mailed check,Yes,0
+US-1131,0,No,4,Month-to-month,No,No,25.9,127.81,3,Credit card,Yes,1
+US-1132,1,Yes,70,Month-to-month,No,No,26.73,1871.41,1,Electronic check,No,0
+US-1133,0,Yes,19,Two year,Fiber optic,Yes,105.39,1987.68,1,Electronic check,Yes,0
+US-1134,0,No,32,Two year,DSL,Yes,52.31,1652.61,0,Bank transfer,Yes,0
+US-1135,0,Yes,9,One year,DSL,Yes,54.18,508.84,1,Electronic check,Yes,1
+US-1136,0,No,12,Month-to-month,DSL,Yes,59.49,720.62,0,Electronic check,No,0
+US-1137,0,No,11,Two year,DSL,Yes,46.9,510.95,0,Credit card,Yes,0
+US-1138,0,No,46,Two year,Fiber optic,Yes,97.5,4476.48,0,Mailed check,No,0
+US-1139,0,No,16,Two year,DSL,No,74.51,1202.24,1,Credit card,Yes,0
+US-1140,0,No,1,Month-to-month,Fiber optic,Yes,86.24,95.9,0,Credit card,Yes,1
+US-1141,0,Yes,63,One year,No,No,27.03,1689.44,0,Electronic check,Yes,0
+US-1142,0,No,21,One year,Fiber optic,Yes,92.5,1925.36,1,Electronic check,Yes,0
+US-1143,0,No,30,Month-to-month,No,No,19.53,569.52,1,Electronic check,Yes,1
+US-1144,0,Yes,13,Month-to-month,Fiber optic,Yes,96.2,1243.58,3,Electronic check,Yes,1
+US-1145,1,No,34,Two year,DSL,No,54.0,1825.65,2,Bank transfer,No,0
+US-1146,0,No,4,One year,Fiber optic,No,71.55,310.47,4,Bank transfer,Yes,1
+US-1147,0,No,28,Month-to-month,DSL,No,64.05,1785.84,1,Mailed check,Yes,1
+US-1148,1,No,59,One year,DSL,No,70.77,4156.69,1,Electronic check,No,1
+US-1149,0,No,27,Month-to-month,Fiber optic,No,85.51,2290.87,1,Electronic check,Yes,1
+US-1150,0,No,69,Month-to-month,DSL,No,56.71,3910.23,7,Mailed check,No,1
+US-1151,0,No,25,Two year,DSL,No,71.73,1765.92,3,Mailed check,No,0
+US-1152,1,No,3,Month-to-month,Fiber optic,Yes,106.61,318.93,0,Electronic check,Yes,1
+US-1153,0,No,68,Month-to-month,No,No,26.58,1787.4,1,Bank transfer,No,0
+US-1154,0,No,25,Two year,Fiber optic,Yes,81.2,2047.38,0,Electronic check,Yes,0
+US-1155,0,No,20,Month-to-month,Fiber optic,Yes,110.96,2220.95,0,Electronic check,Yes,0
+US-1156,0,Yes,34,Month-to-month,DSL,No,49.63,1719.24,3,Bank transfer,Yes,0
+US-1157,0,No,26,Two year,Fiber optic,No,98.2,2549.78,2,Electronic check,Yes,0
+US-1158,0,No,5,One year,Fiber optic,No,71.3,309.52,1,Mailed check,Yes,1
+US-1159,0,Yes,61,One year,Fiber optic,Yes,98.97,6059.04,0,Electronic check,Yes,0
+US-1160,0,No,9,Two year,No,No,21.33,199.5,1,Electronic check,Yes,0
+US-1161,0,Yes,50,Month-to-month,DSL,No,58.49,2934.35,2,Electronic check,Yes,0
+US-1162,0,Yes,6,One year,No,No,22.14,117.8,0,Credit card,Yes,0
+US-1163,0,No,60,Month-to-month,No,No,20.07,1203.56,3,Mailed check,Yes,0
+US-1164,1,Yes,44,Two year,DSL,Yes,63.66,2803.84,0,Credit card,Yes,0
+US-1165,0,No,11,Month-to-month,Fiber optic,Yes,109.69,1203.02,0,Mailed check,Yes,0
+US-1166,0,No,66,One year,No,No,29.51,1921.64,0,Mailed check,Yes,0
+US-1167,1,No,47,Month-to-month,DSL,No,50.77,2427.72,1,Electronic check,Yes,0
+US-1168,1,Yes,3,Month-to-month,Fiber optic,No,102.28,319.38,2,Electronic check,No,1
+US-1169,0,Yes,30,Two year,No,No,25.97,785.41,3,Electronic check,No,0
+US-1170,0,No,21,One year,Fiber optic,Yes,85.45,1814.16,1,Electronic check,Yes,0
+US-1171,1,No,28,One year,DSL,No,45.57,1285.62,2,Mailed check,No,0
+US-1172,0,No,62,Month-to-month,Fiber optic,Yes,101.04,6254.32,3,Electronic check,Yes,1
+US-1173,0,Yes,33,Month-to-month,DSL,No,73.36,2439.63,0,Electronic check,Yes,0
+US-1174,0,No,35,One year,Fiber optic,Yes,98.45,3458.53,0,Electronic check,No,0
+US-1175,1,No,52,Two year,DSL,Yes,58.06,3009.53,1,Mailed check,Yes,0
+US-1176,0,No,34,One year,Fiber optic,Yes,93.63,3195.27,2,Bank transfer,No,1
+US-1177,0,Yes,41,Two year,Fiber optic,Yes,78.98,3234.57,0,Credit card,Yes,0
+US-1178,0,No,51,Two year,Fiber optic,Yes,103.77,5295.4,0,Electronic check,Yes,0
+US-1179,1,No,47,One year,Fiber optic,No,103.59,4877.72,2,Electronic check,Yes,1
+US-1180,0,No,58,One year,Fiber optic,No,76.55,4460.43,1,Electronic check,Yes,1
+US-1181,1,Yes,57,Two year,Fiber optic,No,109.51,6232.38,0,Credit card,Yes,0
+US-1182,0,No,23,One year,DSL,Yes,53.08,1226.31,0,Electronic check,Yes,0
+US-1183,0,No,48,Two year,Fiber optic,No,114.2,5511.84,0,Bank transfer,No,0
+US-1184,0,Yes,22,One year,DSL,Yes,56.49,1240.14,0,Mailed check,Yes,1
+US-1185,0,No,17,One year,No,No,20.13,345.16,1,Electronic check,Yes,0
+US-1186,0,No,69,Month-to-month,DSL,Yes,55.55,3863.16,0,Electronic check,Yes,0
+US-1187,0,Yes,11,Month-to-month,Fiber optic,No,89.81,997.47,4,Electronic check,No,1
+US-1188,0,Yes,15,Two year,Fiber optic,No,73.12,1074.69,4,Credit card,Yes,0
+US-1189,0,No,35,One year,Fiber optic,Yes,96.02,3348.77,0,Mailed check,Yes,0
+US-1190,1,Yes,33,One year,DSL,Yes,62.93,2087.03,0,Mailed check,No,0
+US-1191,0,No,16,Two year,Fiber optic,No,103.25,1658.35,1,Mailed check,Yes,0
+US-1192,0,Yes,34,One year,Fiber optic,Yes,71.31,2426.98,0,Bank transfer,Yes,0
+US-1193,0,No,66,Month-to-month,Fiber optic,No,94.36,6260.18,2,Mailed check,No,0
+US-1194,0,Yes,40,Two year,Fiber optic,No,72.38,2885.94,2,Electronic check,No,0
+US-1195,0,No,28,One year,Fiber optic,Yes,101.55,2842.28,2,Electronic check,Yes,1
+US-1196,0,No,47,Month-to-month,Fiber optic,Yes,72.51,3378.52,0,Electronic check,Yes,0
+US-1197,0,No,39,Month-to-month,Fiber optic,Yes,111.03,4347.58,0,Bank transfer,No,0
+US-1198,0,No,70,Month-to-month,Fiber optic,No,101.59,7099.32,4,Electronic check,Yes,0
+US-1199,0,Yes,20,Month-to-month,Fiber optic,No,92.83,1872.46,3,Mailed check,No,1
+US-1200,0,No,1,Month-to-month,DSL,No,58.25,72.53,3,Electronic check,Yes,1
+US-1201,1,Yes,72,Month-to-month,DSL,No,48.92,3557.48,3,Credit card,Yes,0
+US-1202,1,Yes,63,Month-to-month,DSL,No,53.73,3394.73,1,Electronic check,Yes,0
+US-1203,0,Yes,67,Month-to-month,DSL,No,71.07,4756.35,1,Electronic check,No,0
+US-1204,0,No,4,Month-to-month,Fiber optic,No,110.7,449.6,1,Credit card,No,1
+US-1205,1,No,58,One year,Fiber optic,No,70.03,4050.35,0,Mailed check,No,0
+US-1206,1,No,25,Two year,DSL,No,62.82,1575.29,1,Credit card,No,0
+US-1207,0,Yes,47,One year,No,No,26.63,1248.6,0,Electronic check,Yes,0
+US-1208,1,Yes,38,Month-to-month,DSL,No,63.56,2414.22,3,Electronic check,Yes,0
+US-1209,1,No,15,Month-to-month,Fiber optic,No,73.68,1091.72,1,Bank transfer,No,1
+US-1210,0,Yes,63,Month-to-month,Fiber optic,Yes,79.8,5031.91,1,Credit card,No,0
+US-1211,0,No,21,Month-to-month,Fiber optic,No,81.27,1719.03,3,Electronic check,No,1
+US-1212,0,Yes,57,Month-to-month,DSL,Yes,69.95,3962.37,0,Credit card,No,0
+US-1213,0,No,53,Month-to-month,Fiber optic,Yes,90.84,4804.19,0,Mailed check,Yes,0
+US-1214,0,No,46,Month-to-month,Fiber optic,Yes,91.91,4230.38,5,Credit card,Yes,0
+US-1215,0,Yes,14,Two year,No,No,29.22,373.87,0,Electronic check,No,0
+US-1216,0,Yes,17,Month-to-month,Fiber optic,No,98.67,1703.49,3,Electronic check,Yes,1
+US-1217,0,No,39,Month-to-month,No,No,28.78,1111.75,4,Credit card,Yes,1
+US-1218,0,No,9,Two year,DSL,No,58.7,514.23,1,Credit card,No,0
+US-1219,0,Yes,6,Month-to-month,Fiber optic,Yes,76.72,457.21,1,Mailed check,Yes,0
+US-1220,0,No,23,Month-to-month,Fiber optic,No,111.85,2574.61,0,Electronic check,No,1
+US-1221,0,Yes,59,One year,Fiber optic,No,90.64,5336.41,0,Electronic check,Yes,0
+US-1222,1,Yes,46,One year,DSL,Yes,50.45,2335.41,0,Mailed check,No,0
+US-1223,0,No,38,One year,Fiber optic,No,83.61,3183.18,3,Electronic check,No,1
+US-1224,0,Yes,14,Month-to-month,Fiber optic,No,72.29,999.5,2,Electronic check,Yes,1
+US-1225,0,No,72,Month-to-month,Fiber optic,No,91.07,6549.2,1,Electronic check,Yes,1
+US-1226,0,Yes,62,Month-to-month,DSL,No,70.59,4353.83,2,Bank transfer,Yes,0
+US-1227,0,Yes,35,Month-to-month,No,No,29.2,1003.2,1,Electronic check,Yes,0
+US-1228,0,No,19,Two year,DSL,No,72.98,1392.43,0,Mailed check,Yes,1
+US-1229,0,Yes,30,One year,No,No,19.5,572.6,1,Mailed check,Yes,0
+US-1230,0,No,25,Month-to-month,No,No,22.58,591.56,5,Bank transfer,Yes,1
+US-1231,0,Yes,40,One year,No,No,18.34,734.66,1,Mailed check,Yes,0
+US-1232,0,Yes,14,Month-to-month,Fiber optic,Yes,108.48,1498.43,0,Electronic check,Yes,1
+US-1233,0,Yes,26,Two year,Fiber optic,Yes,86.14,2222.49,1,Bank transfer,No,0
+US-1234,1,No,22,Month-to-month,No,No,25.57,578.33,5,Credit card,Yes,1
+US-1235,0,Yes,48,Month-to-month,DSL,Yes,66.45,3188.45,3,Bank transfer,No,1
+US-1236,0,No,51,Month-to-month,Fiber optic,No,89.34,4571.22,2,Credit card,No,0
+US-1237,1,No,3,One year,Fiber optic,Yes,83.79,245.87,0,Bank transfer,No,1
+US-1238,0,No,42,One year,Fiber optic,Yes,113.3,4750.2,0,Bank transfer,No,0
+US-1239,1,Yes,19,Month-to-month,DSL,No,73.93,1421.46,2,Electronic check,Yes,1
+US-1240,0,No,28,Month-to-month,Fiber optic,No,83.02,2311.68,1,Mailed check,No,0
+US-1241,0,No,45,Month-to-month,No,No,23.76,1076.54,2,Mailed check,Yes,1
+US-1242,0,No,71,Month-to-month,DSL,No,74.19,5264.31,3,Electronic check,No,1
+US-1243,0,No,63,Two year,No,No,18.06,1150.96,2,Mailed check,No,0
+US-1244,1,No,19,Month-to-month,DSL,Yes,57.38,1117.5,1,Electronic check,Yes,1
+US-1245,0,No,47,Month-to-month,Fiber optic,Yes,74.52,3496.56,1,Bank transfer,Yes,0
+US-1246,0,Yes,14,One year,DSL,Yes,60.27,835.57,0,Mailed check,Yes,1
+US-1247,0,Yes,38,Month-to-month,DSL,Yes,45.74,1748.11,0,Mailed check,No,0
+US-1248,0,No,53,One year,No,No,22.88,1196.41,4,Credit card,Yes,0
+US-1249,0,No,61,Two year,Fiber optic,Yes,79.93,4899.98,1,Electronic check,Yes,0
+US-1250,0,No,36,Month-to-month,Fiber optic,No,94.0,3405.69,4,Electronic check,Yes,1
+US-1251,0,No,40,Two year,DSL,No,74.88,2980.21,3,Electronic check,Yes,1
+US-1252,0,Yes,30,One year,Fiber optic,Yes,106.02,3156.85,0,Credit card,No,1
+US-1253,0,Yes,9,Month-to-month,Fiber optic,No,108.05,955.04,3,Mailed check,No,0
+US-1254,1,No,64,Month-to-month,Fiber optic,No,98.59,6292.58,2,Bank transfer,Yes,0
+US-1255,0,Yes,33,Month-to-month,DSL,Yes,46.25,1538.28,3,Electronic check,Yes,0
+US-1256,0,Yes,52,One year,No,No,20.48,1088.2,0,Mailed check,Yes,0
+US-1257,0,No,14,Two year,Fiber optic,No,111.63,1574.67,1,Electronic check,Yes,0
+US-1258,0,Yes,53,Two year,Fiber optic,Yes,86.48,4579.9,0,Bank transfer,No,0
+US-1259,1,No,59,Two year,DSL,Yes,48.11,2843.63,1,Credit card,Yes,0
+US-1260,0,Yes,41,Two year,Fiber optic,No,101.61,4152.96,0,Bank transfer,Yes,0
+US-1261,0,No,68,One year,Fiber optic,Yes,83.48,5693.1,0,Bank transfer,No,0
+US-1262,1,Yes,68,Month-to-month,Fiber optic,No,82.1,5589.28,2,Mailed check,No,0
+US-1263,0,No,8,Month-to-month,DSL,Yes,74.94,611.12,1,Bank transfer,Yes,1
+US-1264,0,Yes,2,Month-to-month,No,No,28.3,45.69,1,Mailed check,Yes,0
+US-1265,0,Yes,41,One year,DSL,No,57.24,2344.31,0,Bank transfer,Yes,0
+US-1266,0,Yes,55,Month-to-month,Fiber optic,No,114.11,6286.93,1,Electronic check,No,0
+US-1267,0,No,16,Month-to-month,Fiber optic,Yes,99.26,1609.81,0,Electronic check,No,1
+US-1268,0,No,62,Month-to-month,DSL,Yes,67.26,4161.0,1,Mailed check,Yes,0
+US-1269,0,Yes,48,Month-to-month,Fiber optic,No,71.42,3439.87,3,Mailed check,Yes,1
+US-1270,0,No,30,One year,DSL,No,48.65,1448.82,0,Electronic check,No,0
+US-1271,0,No,12,Month-to-month,No,No,25.6,338.96,3,Bank transfer,No,1
+US-1272,0,No,35,One year,No,No,28.79,1001.43,1,Electronic check,No,0
+US-1273,0,Yes,11,Month-to-month,No,No,25.48,289.93,2,Electronic check,Yes,0
+US-1274,0,No,64,One year,DSL,No,49.02,3139.76,3,Bank transfer,Yes,0
+US-1275,0,Yes,50,Month-to-month,Fiber optic,No,75.21,3799.58,2,Mailed check,Yes,0
+US-1276,0,Yes,21,Month-to-month,Fiber optic,No,107.99,2271.24,1,Bank transfer,Yes,1
+US-1277,0,No,69,One year,No,No,19.67,1349.5,1,Mailed check,Yes,0
+US-1278,0,Yes,48,Month-to-month,Fiber optic,No,93.41,4493.27,3,Credit card,Yes,1
+US-1279,0,No,20,Month-to-month,No,No,18.45,378.26,4,Mailed check,Yes,1
+US-1280,0,No,67,Month-to-month,Fiber optic,No,73.63,4930.85,6,Electronic check,No,1
+US-1281,0,No,44,Month-to-month,Fiber optic,No,100.26,4395.02,2,Electronic check,Yes,1
+US-1282,0,No,33,Month-to-month,DSL,No,65.68,2159.52,4,Electronic check,No,0
+US-1283,1,Yes,61,Month-to-month,Fiber optic,No,85.37,5220.79,4,Credit card,Yes,1
+US-1284,0,Yes,9,One year,Fiber optic,Yes,79.7,691.09,0,Electronic check,No,0
+US-1285,1,No,68,Two year,Fiber optic,No,106.62,7246.44,1,Electronic check,Yes,0
+US-1286,0,Yes,35,Month-to-month,Fiber optic,No,79.77,2806.87,2,Electronic check,No,1
+US-1287,0,Yes,65,Two year,Fiber optic,Yes,94.39,6133.95,1,Credit card,Yes,0
+US-1288,0,Yes,8,Month-to-month,DSL,Yes,74.05,625.01,1,Electronic check,Yes,1
+US-1289,0,Yes,45,One year,Fiber optic,Yes,76.65,3423.08,2,Credit card,No,0
+US-1290,1,Yes,47,One year,Fiber optic,No,112.34,5265.56,0,Electronic check,Yes,0
+US-1291,1,Yes,40,One year,Fiber optic,No,78.23,3094.48,1,Electronic check,Yes,0
+US-1292,0,No,54,Month-to-month,DSL,Yes,62.02,3378.99,3,Electronic check,No,0
+US-1293,0,No,46,Month-to-month,DSL,No,56.31,2576.09,1,Credit card,No,0
+US-1294,1,No,47,Month-to-month,DSL,No,73.95,3445.85,3,Credit card,Yes,1
+US-1295,0,Yes,15,Month-to-month,Fiber optic,Yes,82.31,1225.47,0,Electronic check,Yes,1
+US-1296,0,Yes,19,Month-to-month,DSL,No,56.99,1061.92,1,Electronic check,Yes,1
+US-1297,0,Yes,26,Month-to-month,Fiber optic,No,114.23,2960.91,0,Bank transfer,Yes,1
+US-1298,0,No,52,Month-to-month,No,No,24.44,1271.5,2,Electronic check,No,1
+US-1299,1,No,22,Month-to-month,DSL,No,60.08,1333.83,0,Electronic check,Yes,0
+US-1300,1,Yes,21,One year,Fiber optic,No,81.6,1710.98,0,Electronic check,Yes,1
+US-1301,0,No,51,Two year,Fiber optic,No,101.56,5179.94,1,Electronic check,No,0
+US-1302,0,Yes,38,Two year,No,No,18.17,681.74,0,Electronic check,Yes,0
+US-1303,0,No,20,Month-to-month,Fiber optic,No,72.23,1421.92,6,Electronic check,No,1
+US-1304,0,No,29,One year,Fiber optic,Yes,96.97,2784.43,0,Electronic check,Yes,0
+US-1305,0,No,51,Two year,No,No,22.1,1121.63,1,Credit card,Yes,0
+US-1306,0,No,4,Month-to-month,Fiber optic,No,112.9,452.87,2,Electronic check,Yes,1
+US-1307,0,No,55,Month-to-month,No,No,28.84,1579.62,1,Bank transfer,Yes,1
+US-1308,0,Yes,71,Two year,DSL,No,66.41,4687.97,0,Electronic check,Yes,0
+US-1309,0,No,28,Month-to-month,No,No,27.82,781.98,0,Bank transfer,Yes,0
+US-1310,0,Yes,4,Month-to-month,Fiber optic,No,100.03,424.56,1,Electronic check,Yes,1
+US-1311,1,No,22,Month-to-month,Fiber optic,Yes,75.65,1662.58,2,Bank transfer,Yes,1
+US-1312,1,No,45,Month-to-month,DSL,No,67.97,3049.96,4,Electronic check,Yes,1
+US-1313,0,No,67,Two year,Fiber optic,Yes,79.46,5322.91,2,Credit card,Yes,0
+US-1314,0,No,66,One year,DSL,No,54.7,3593.63,0,Electronic check,Yes,0
+US-1315,0,No,34,Month-to-month,No,No,27.83,928.69,6,Electronic check,No,1
+US-1316,0,No,55,Month-to-month,No,No,24.44,1350.97,0,Credit card,Yes,1
+US-1317,1,No,1,One year,DSL,Yes,70.8,85.65,0,Mailed check,Yes,0
+US-1318,1,Yes,72,One year,No,No,20.56,1478.11,4,Electronic check,No,1
+US-1319,0,Yes,38,Month-to-month,Fiber optic,Yes,97.35,3669.69,4,Credit card,Yes,0
+US-1320,0,Yes,6,Two year,Fiber optic,No,73.77,447.92,1,Electronic check,No,0
+US-1321,0,Yes,25,Month-to-month,Fiber optic,Yes,98.94,2504.51,0,Electronic check,No,1
+US-1322,0,No,17,Month-to-month,DSL,No,67.88,1150.3,4,Credit card,Yes,1
+US-1323,0,Yes,61,One year,DSL,No,62.55,3812.88,1,Electronic check,Yes,1
+US-1324,0,No,12,Month-to-month,DSL,No,52.99,622.79,2,Credit card,No,1
+US-1325,0,Yes,6,Two year,No,No,18.38,117.5,0,Electronic check,Yes,0
+US-1326,0,Yes,27,One year,DSL,Yes,48.58,1301.6,0,Bank transfer,No,0
+US-1327,0,No,8,Two year,No,No,25.47,219.08,1,Mailed check,Yes,0
+US-1328,0,No,65,Month-to-month,DSL,Yes,73.03,4737.09,2,Credit card,Yes,0
+US-1329,0,No,57,Month-to-month,Fiber optic,No,79.29,4524.66,3,Mailed check,Yes,1
+US-1330,0,No,40,Month-to-month,Fiber optic,No,103.08,4122.5,3,Electronic check,Yes,1
+US-1331,0,No,14,Month-to-month,No,No,28.4,420.93,3,Bank transfer,Yes,1
+US-1332,1,Yes,35,One year,DSL,No,60.63,2128.19,0,Electronic check,No,0
+US-1333,1,No,48,Two year,Fiber optic,No,100.12,4826.57,1,Bank transfer,No,0
+US-1334,1,No,56,One year,Fiber optic,Yes,106.68,5975.71,0,Credit card,No,0
+US-1335,1,No,49,Two year,DSL,No,52.82,2585.62,1,Mailed check,Yes,0
+US-1336,0,Yes,13,One year,DSL,No,53.91,700.26,0,Bank transfer,No,0
+US-1337,0,No,61,Month-to-month,Fiber optic,Yes,70.03,4260.26,0,Electronic check,No,0
+US-1338,0,Yes,49,Month-to-month,Fiber optic,Yes,113.34,5561.64,3,Mailed check,No,1
+US-1339,1,Yes,46,One year,Fiber optic,No,111.29,5108.98,0,Electronic check,Yes,1
+US-1340,0,Yes,62,Month-to-month,Fiber optic,Yes,104.41,6475.11,2,Bank transfer,No,1
+US-1341,0,No,8,Month-to-month,Fiber optic,Yes,73.56,601.31,0,Electronic check,Yes,1
+US-1342,1,No,43,Month-to-month,Fiber optic,No,90.14,3899.77,2,Bank transfer,Yes,0
+US-1343,0,No,20,Two year,Fiber optic,Yes,74.59,1494.24,1,Electronic check,No,0
+US-1344,0,No,39,Month-to-month,No,No,18.19,722.33,1,Bank transfer,Yes,0
+US-1345,0,Yes,49,Two year,Fiber optic,Yes,97.73,4799.9,0,Electronic check,Yes,0
+US-1346,0,Yes,64,Two year,Fiber optic,No,113.24,7241.62,0,Credit card,No,0
+US-1347,1,Yes,62,Month-to-month,DSL,No,72.09,4501.2,1,Electronic check,Yes,0
+US-1348,0,No,54,Month-to-month,Fiber optic,No,101.35,5464.26,1,Mailed check,No,1
+US-1349,0,Yes,9,Month-to-month,DSL,No,47.9,432.46,3,Electronic check,No,1
+US-1350,0,No,37,One year,Fiber optic,No,82.34,3068.39,1,Bank transfer,Yes,0
+US-1351,0,No,49,One year,Fiber optic,No,84.4,4157.04,1,Electronic check,Yes,0
+US-1352,0,Yes,41,Two year,No,No,27.16,1113.77,0,Bank transfer,No,0
+US-1353,1,No,17,One year,DSL,Yes,69.07,1189.05,1,Electronic check,Yes,0
+US-1354,1,No,21,Month-to-month,Fiber optic,No,87.33,1830.57,1,Bank transfer,No,0
+US-1355,0,No,51,Month-to-month,Fiber optic,No,88.8,4521.47,3,Electronic check,No,0
+US-1356,1,No,59,One year,DSL,Yes,46.34,2715.87,0,Electronic check,Yes,0
+US-1357,0,Yes,39,Month-to-month,DSL,Yes,53.67,2103.99,0,Mailed check,Yes,0
+US-1358,0,Yes,55,Month-to-month,DSL,No,58.54,3232.14,2,Electronic check,No,0
+US-1359,0,No,41,Month-to-month,DSL,Yes,48.51,1980.39,0,Electronic check,Yes,0
+US-1360,0,No,39,Month-to-month,DSL,Yes,58.6,2289.42,1,Credit card,Yes,0
+US-1361,0,Yes,13,Month-to-month,DSL,No,70.6,957.56,0,Credit card,No,1
+US-1362,0,No,64,Month-to-month,DSL,No,62.44,4013.36,2,Bank transfer,No,0
+US-1363,0,No,11,Month-to-month,Fiber optic,No,73.55,795.53,2,Electronic check,No,1
+US-1364,0,No,19,Month-to-month,Fiber optic,Yes,78.63,1508.99,2,Electronic check,Yes,1
+US-1365,0,Yes,11,One year,No,No,23.69,247.14,1,Bank transfer,No,0
+US-1366,0,No,46,Two year,Fiber optic,Yes,86.27,3924.99,0,Electronic check,No,0
+US-1367,0,No,45,Month-to-month,Fiber optic,No,86.14,3875.99,2,Credit card,No,1
+US-1368,1,Yes,1,Two year,No,No,24.35,47.8,1,Electronic check,No,1
+US-1369,1,Yes,40,Month-to-month,Fiber optic,No,96.3,3872.96,3,Credit card,Yes,0
+US-1370,1,No,19,Month-to-month,Fiber optic,Yes,105.86,2017.0,2,Mailed check,No,1
+US-1371,1,Yes,72,Two year,Fiber optic,No,85.34,6136.35,0,Bank transfer,No,0
+US-1372,1,No,72,One year,DSL,Yes,69.16,4986.82,0,Electronic check,Yes,0
+US-1373,0,No,61,Two year,DSL,No,55.16,3360.72,0,Credit card,Yes,0
+US-1374,1,Yes,12,Month-to-month,Fiber optic,No,72.49,862.18,0,Electronic check,No,1
+US-1375,0,No,61,Month-to-month,Fiber optic,No,94.94,5807.27,1,Bank transfer,Yes,1
+US-1376,0,Yes,33,Two year,DSL,No,62.64,2059.23,3,Credit card,Yes,0
+US-1377,1,No,45,Month-to-month,No,No,29.21,1331.36,2,Electronic check,Yes,0
+US-1378,0,Yes,69,Month-to-month,Fiber optic,Yes,102.67,7075.35,3,Mailed check,Yes,0
+US-1379,0,No,8,One year,Fiber optic,No,111.3,921.28,1,Mailed check,Yes,1
+US-1380,1,Yes,25,Two year,No,No,28.9,697.89,1,Electronic check,Yes,1
+US-1381,0,Yes,46,Two year,Fiber optic,No,97.21,4457.31,5,Mailed check,No,0
+US-1382,0,No,30,Month-to-month,No,No,24.33,727.57,4,Electronic check,No,1
+US-1383,0,Yes,47,Two year,Fiber optic,Yes,95.08,4439.0,0,Electronic check,No,1
+US-1384,0,No,49,Month-to-month,DSL,No,74.35,3604.59,2,Bank transfer,Yes,0
+US-1385,0,Yes,47,Month-to-month,Fiber optic,Yes,104.79,4895.5,2,Bank transfer,No,0
+US-1386,0,No,18,One year,Fiber optic,No,74.78,1341.66,5,Electronic check,No,1
+US-1387,1,Yes,66,Month-to-month,Fiber optic,No,105.03,6927.98,0,Credit card,No,0
+US-1388,0,No,68,Month-to-month,No,No,20.05,1368.39,0,Credit card,Yes,0
+US-1389,0,No,33,One year,Fiber optic,No,90.13,2971.33,1,Mailed check,Yes,0
+US-1390,0,Yes,36,Month-to-month,Fiber optic,Yes,79.47,2865.41,0,Mailed check,No,0
+US-1391,0,Yes,19,Month-to-month,No,No,26.27,492.38,1,Electronic check,No,1
+US-1392,0,Yes,28,Month-to-month,Fiber optic,No,109.48,3076.16,3,Bank transfer,No,1
+US-1393,0,No,40,Month-to-month,Fiber optic,No,83.07,3331.71,0,Bank transfer,Yes,0
+US-1394,0,Yes,15,Month-to-month,No,No,18.98,279.8,3,Electronic check,Yes,1
+US-1395,0,No,41,Two year,DSL,No,53.95,2219.95,1,Bank transfer,No,0
+US-1396,0,Yes,39,Two year,Fiber optic,Yes,100.26,3907.28,0,Electronic check,Yes,0
+US-1397,0,Yes,2,Month-to-month,No,No,21.95,21.07,3,Electronic check,No,1
+US-1398,0,No,63,Two year,Fiber optic,No,82.52,5212.33,0,Bank transfer,No,0
+US-1399,0,No,29,Month-to-month,Fiber optic,No,78.3,2257.1,1,Bank transfer,No,1
+US-1400,1,Yes,66,Month-to-month,Fiber optic,Yes,92.39,6111.15,0,Mailed check,Yes,0
+US-1401,0,Yes,51,Two year,Fiber optic,Yes,82.42,4208.28,1,Mailed check,Yes,0
+US-1402,0,Yes,10,Month-to-month,No,No,26.77,266.43,3,Credit card,No,1
+US-1403,0,No,14,Two year,DSL,No,47.3,634.05,1,Mailed check,No,0
+US-1404,0,No,51,Month-to-month,DSL,No,64.92,3334.02,5,Bank transfer,Yes,1
+US-1405,0,No,39,Two year,DSL,Yes,52.13,2027.62,0,Electronic check,Yes,0
+US-1406,0,No,28,Month-to-month,Fiber optic,Yes,92.02,2586.08,2,Electronic check,Yes,0
+US-1407,1,No,3,Month-to-month,Fiber optic,Yes,82.87,246.9,2,Electronic check,No,1
+US-1408,0,No,70,Month-to-month,No,No,26.67,1862.83,1,Mailed check,No,0
+US-1409,1,No,27,One year,Fiber optic,No,112.54,3041.47,1,Bank transfer,No,0
+US-1410,0,Yes,2,Month-to-month,Fiber optic,No,111.27,222.94,4,Electronic check,Yes,1
+US-1411,0,Yes,38,Two year,DSL,No,62.5,2371.0,1,Electronic check,No,0
+US-1412,0,Yes,3,Month-to-month,Fiber optic,No,90.82,271.63,1,Electronic check,Yes,1
+US-1413,0,Yes,16,Month-to-month,Fiber optic,No,106.82,1715.53,4,Electronic check,Yes,1
+US-1414,0,No,40,Month-to-month,DSL,Yes,65.5,2627.47,0,Credit card,No,0
+US-1415,0,No,2,One year,DSL,Yes,50.51,101.67,1,Bank transfer,Yes,1
+US-1416,0,Yes,41,Two year,DSL,Yes,69.63,2864.14,1,Electronic check,Yes,0
+US-1417,0,Yes,12,Month-to-month,DSL,No,57.87,688.08,2,Bank transfer,No,1
+US-1418,0,No,35,One year,Fiber optic,No,78.5,2780.87,1,Bank transfer,Yes,1
+US-1419,0,No,65,Month-to-month,DSL,Yes,53.45,3496.53,4,Bank transfer,Yes,0
+US-1420,0,Yes,55,One year,Fiber optic,Yes,82.04,4523.64,0,Electronic check,Yes,0
+US-1421,0,No,45,Two year,No,No,24.23,1061.23,0,Mailed check,Yes,0
+US-1422,1,Yes,62,Month-to-month,Fiber optic,No,80.55,5003.19,3,Electronic check,No,1
+US-1423,0,Yes,49,Month-to-month,No,No,19.48,949.47,1,Credit card,Yes,0
+US-1424,1,No,25,Two year,Fiber optic,No,75.57,1874.57,0,Bank transfer,No,0
+US-1425,0,No,23,Two year,Fiber optic,Yes,96.25,2208.32,1,Mailed check,Yes,0
+US-1426,0,Yes,24,One year,No,No,26.82,630.66,1,Electronic check,Yes,1
+US-1427,0,No,38,Month-to-month,DSL,No,54.65,2084.3,3,Electronic check,Yes,0
+US-1428,0,No,28,Month-to-month,No,No,18.42,540.0,4,Electronic check,No,1
+US-1429,1,No,21,Month-to-month,DSL,No,48.82,1037.61,3,Credit card,Yes,1
+US-1430,1,No,54,Two year,Fiber optic,Yes,111.16,6044.08,0,Electronic check,No,0
+US-1431,0,No,18,One year,DSL,No,59.81,1053.28,1,Electronic check,Yes,1
+US-1432,0,No,36,Month-to-month,Fiber optic,Yes,90.41,3247.17,2,Credit card,No,0
+US-1433,1,No,45,Month-to-month,Fiber optic,No,71.71,3212.8,1,Mailed check,No,1
+US-1434,1,Yes,53,Month-to-month,Fiber optic,No,102.79,5466.31,0,Bank transfer,No,0
+US-1435,0,Yes,30,Month-to-month,Fiber optic,No,93.76,2809.49,3,Electronic check,No,1
+US-1436,1,Yes,60,Month-to-month,Fiber optic,No,79.09,4748.24,2,Mailed check,No,0
+US-1437,0,No,32,Month-to-month,DSL,Yes,48.3,1555.11,0,Electronic check,No,0
+US-1438,0,Yes,67,Month-to-month,DSL,No,56.5,3763.68,5,Bank transfer,Yes,0
+US-1439,1,No,67,Month-to-month,No,No,28.05,1870.03,3,Electronic check,Yes,0
+US-1440,1,No,28,Month-to-month,Fiber optic,No,108.94,3065.28,2,Mailed check,No,1
+US-1441,0,Yes,44,Month-to-month,No,No,25.23,1101.9,1,Bank transfer,Yes,0
+US-1442,0,No,41,Month-to-month,No,No,26.73,1070.23,4,Mailed check,Yes,0
+US-1443,0,Yes,63,Month-to-month,Fiber optic,No,75.18,4722.81,0,Mailed check,Yes,0
+US-1444,0,No,23,Month-to-month,Fiber optic,No,96.47,2214.52,1,Electronic check,Yes,1
+US-1445,0,Yes,48,Month-to-month,DSL,No,65.01,3122.98,1,Electronic check,No,0
+US-1446,0,No,32,Month-to-month,DSL,No,51.02,1631.58,3,Bank transfer,Yes,1
+US-1447,0,No,57,Two year,DSL,Yes,71.4,4060.59,0,Bank transfer,No,0
+US-1448,0,No,33,Two year,Fiber optic,No,78.77,2613.5,1,Credit card,No,0
+US-1449,1,No,24,One year,Fiber optic,No,84.11,2016.7,1,Bank transfer,No,0
+US-1450,0,No,39,Month-to-month,Fiber optic,No,97.93,3822.41,3,Mailed check,Yes,0
+US-1451,0,No,34,Two year,Fiber optic,No,98.73,3348.41,3,Credit card,Yes,0
+US-1452,0,No,56,One year,Fiber optic,Yes,101.47,5704.95,0,Electronic check,No,0
+US-1453,0,No,28,Month-to-month,Fiber optic,Yes,75.04,2095.25,2,Mailed check,No,1
+US-1454,1,Yes,37,Month-to-month,Fiber optic,No,108.23,4005.63,3,Electronic check,No,1
+US-1455,0,No,7,Two year,DSL,No,60.99,442.45,4,Electronic check,Yes,1
+US-1456,1,No,68,Month-to-month,DSL,Yes,59.14,4025.72,0,Bank transfer,Yes,0
+US-1457,0,No,37,Month-to-month,Fiber optic,No,114.15,4227.38,3,Mailed check,No,1
+US-1458,1,Yes,56,One year,Fiber optic,Yes,103.32,5756.32,1,Mailed check,Yes,0
+US-1459,1,No,65,Two year,Fiber optic,No,75.31,4905.36,1,Mailed check,No,0
+US-1460,1,Yes,65,Month-to-month,DSL,No,67.7,4401.33,4,Mailed check,No,0
+US-1461,0,No,47,Month-to-month,Fiber optic,Yes,74.29,3499.75,4,Electronic check,No,0
+US-1462,0,Yes,20,Month-to-month,DSL,Yes,45.82,919.15,2,Bank transfer,Yes,0
+US-1463,0,No,19,One year,DSL,Yes,57.11,1076.7,2,Mailed check,Yes,1
+US-1464,0,No,29,Month-to-month,Fiber optic,No,114.71,3340.0,1,Credit card,No,0
+US-1465,0,Yes,60,Month-to-month,Fiber optic,Yes,77.87,4675.17,0,Electronic check,No,0
+US-1466,0,No,18,Two year,Fiber optic,Yes,100.27,1785.52,0,Electronic check,No,0
+US-1467,0,Yes,35,Month-to-month,No,No,20.08,722.43,1,Bank transfer,No,0
+US-1468,0,No,43,One year,Fiber optic,No,102.62,4391.2,3,Credit card,No,0
+US-1469,0,No,11,Month-to-month,Fiber optic,No,92.74,1033.65,2,Mailed check,No,1
+US-1470,1,No,49,Month-to-month,DSL,No,65.4,3226.9,1,Bank transfer,Yes,1
+US-1471,0,No,38,One year,Fiber optic,No,79.13,2990.35,2,Credit card,Yes,0
+US-1472,1,No,64,Month-to-month,Fiber optic,Yes,103.55,6625.36,1,Credit card,Yes,1
+US-1473,0,Yes,69,Month-to-month,Fiber optic,No,114.8,7917.96,3,Bank transfer,Yes,0
+US-1474,0,Yes,8,Month-to-month,Fiber optic,No,99.95,797.04,0,Bank transfer,Yes,1
+US-1475,0,No,34,One year,DSL,No,59.8,2060.65,2,Electronic check,Yes,0
+US-1476,1,No,48,Two year,Fiber optic,Yes,111.54,5337.5,0,Credit card,No,0
+US-1477,0,No,56,Two year,No,No,18.19,1014.04,1,Mailed check,Yes,0
+US-1478,0,No,65,Month-to-month,No,No,26.76,1761.95,5,Credit card,Yes,1
+US-1479,0,Yes,31,Month-to-month,Fiber optic,No,109.99,3404.85,3,Electronic check,Yes,1
+US-1480,0,No,4,Month-to-month,Fiber optic,No,72.78,277.08,3,Mailed check,No,1
+US-1481,0,Yes,50,Two year,Fiber optic,No,90.25,4516.45,2,Mailed check,Yes,0
+US-1482,0,No,69,Month-to-month,Fiber optic,Yes,79.21,5477.57,1,Mailed check,Yes,0
+US-1483,0,Yes,30,Two year,DSL,Yes,62.0,1854.11,1,Electronic check,Yes,0
+US-1484,0,Yes,59,Month-to-month,Fiber optic,Yes,99.23,5862.89,1,Mailed check,No,1
+US-1485,0,Yes,67,Two year,Fiber optic,Yes,83.62,5581.89,0,Bank transfer,No,0
+US-1486,1,Yes,45,Two year,No,No,23.52,1038.58,1,Bank transfer,No,0
+US-1487,0,No,4,Two year,Fiber optic,No,82.57,323.68,1,Electronic check,Yes,0
+US-1488,0,Yes,26,Month-to-month,Fiber optic,Yes,86.62,2260.97,2,Bank transfer,No,1
+US-1489,0,Yes,27,Month-to-month,Fiber optic,No,77.18,2095.28,3,Electronic check,Yes,1
+US-1490,0,Yes,46,Month-to-month,Fiber optic,Yes,109.85,5035.37,1,Electronic check,Yes,0
+US-1491,0,Yes,64,Month-to-month,Fiber optic,Yes,70.45,4519.67,1,Bank transfer,Yes,0
+US-1492,0,Yes,51,Month-to-month,DSL,No,71.47,3647.47,1,Credit card,Yes,0
+US-1493,1,Yes,50,Month-to-month,Fiber optic,Yes,95.73,4773.31,2,Mailed check,No,0
+US-1494,0,No,6,Month-to-month,No,No,21.98,111.87,2,Mailed check,Yes,1
+US-1495,0,No,59,One year,Fiber optic,No,102.54,6053.31,1,Electronic check,Yes,0
+US-1496,0,No,15,One year,DSL,No,60.23,922.79,0,Mailed check,Yes,0
+US-1497,1,No,30,Month-to-month,Fiber optic,Yes,92.46,2774.33,1,Electronic check,Yes,1
+US-1498,0,Yes,42,Two year,No,No,19.32,797.42,2,Credit card,No,0
+US-1499,0,No,37,Month-to-month,DSL,Yes,56.69,2069.51,3,Credit card,No,1
+US-1500,0,No,42,Month-to-month,Fiber optic,Yes,80.85,3418.64,0,Bank transfer,No,0
+US-1501,0,No,35,Month-to-month,No,No,18.19,652.28,1,Mailed check,Yes,0
+US-1502,0,Yes,6,Two year,Fiber optic,Yes,86.2,521.73,0,Bank transfer,Yes,0
+US-1503,0,Yes,68,Month-to-month,No,No,19.08,1319.61,3,Mailed check,Yes,0
+US-1504,0,Yes,18,Month-to-month,Fiber optic,Yes,81.56,1471.44,2,Electronic check,No,1
+US-1505,1,Yes,29,One year,Fiber optic,Yes,74.16,2142.67,0,Electronic check,No,0
+US-1506,0,No,59,Month-to-month,Fiber optic,Yes,74.54,4406.19,2,Bank transfer,No,0
+US-1507,0,No,47,One year,DSL,No,50.97,2383.14,0,Credit card,Yes,0
+US-1508,0,No,17,Two year,DSL,No,75.0,1260.07,2,Electronic check,Yes,0
+US-1509,0,No,22,Two year,Fiber optic,No,70.1,1553.77,1,Electronic check,Yes,0
+US-1510,0,No,68,Month-to-month,DSL,Yes,64.16,4375.72,1,Mailed check,No,0
+US-1511,0,No,69,Month-to-month,Fiber optic,Yes,76.36,5249.73,2,Credit card,No,0
+US-1512,0,No,37,Month-to-month,No,No,29.05,1056.3,2,Electronic check,No,1
+US-1513,0,Yes,49,Month-to-month,No,No,19.12,930.2,1,Electronic check,No,0
+US-1514,1,Yes,13,Month-to-month,Fiber optic,No,112.98,1458.07,2,Bank transfer,Yes,1
+US-1515,1,Yes,34,Month-to-month,No,No,25.33,868.37,3,Mailed check,Yes,0
+US-1516,0,No,53,Two year,Fiber optic,No,70.06,3713.9,0,Electronic check,Yes,0
+US-1517,0,No,51,Two year,Fiber optic,No,110.23,5639.2,2,Electronic check,Yes,0
+US-1518,0,Yes,3,Month-to-month,DSL,Yes,60.65,186.71,1,Bank transfer,Yes,0
+US-1519,1,No,42,Month-to-month,Fiber optic,No,81.82,3426.77,3,Mailed check,No,1
+US-1520,0,Yes,32,Month-to-month,Fiber optic,No,104.53,3316.59,2,Credit card,No,0
+US-1521,0,No,51,Month-to-month,Fiber optic,Yes,111.7,5699.39,0,Bank transfer,Yes,0
+US-1522,0,Yes,46,One year,Fiber optic,No,91.77,4195.77,1,Electronic check,Yes,0
+US-1523,0,Yes,21,One year,DSL,No,54.47,1134.02,0,Mailed check,Yes,0
+US-1524,0,No,44,Two year,Fiber optic,Yes,105.5,4631.17,1,Mailed check,No,0
+US-1525,0,Yes,11,One year,No,No,26.18,280.35,1,Electronic check,Yes,0
+US-1526,0,Yes,68,Month-to-month,Fiber optic,Yes,109.99,7459.58,0,Credit card,Yes,1
+US-1527,0,Yes,1,One year,No,No,26.31,18.0,1,Credit card,No,1
+US-1528,1,No,63,Month-to-month,No,No,20.92,1335.15,2,Electronic check,Yes,0
+US-1529,0,No,24,One year,No,No,29.18,717.47,0,Electronic check,Yes,0
+US-1530,0,Yes,13,Month-to-month,No,No,19.26,273.37,1,Electronic check,No,0
+US-1531,0,No,11,Month-to-month,No,No,21.22,233.57,3,Electronic check,No,1
+US-1532,0,No,51,Month-to-month,Fiber optic,No,93.41,4767.98,3,Mailed check,No,1
+US-1533,0,Yes,17,Month-to-month,DSL,No,61.97,1070.9,3,Mailed check,Yes,1
+US-1534,0,Yes,24,Two year,Fiber optic,Yes,70.69,1674.5,0,Credit card,Yes,0
+US-1535,0,Yes,19,Month-to-month,Fiber optic,Yes,105.13,2009.55,2,Electronic check,No,1
+US-1536,0,Yes,37,Month-to-month,DSL,Yes,55.85,2085.99,0,Mailed check,Yes,0
+US-1537,0,No,8,Month-to-month,DSL,No,57.19,444.19,4,Credit card,No,1
+US-1538,0,Yes,28,One year,No,No,27.71,796.62,0,Mailed check,No,0
+US-1539,1,No,5,Month-to-month,No,No,22.55,143.62,3,Electronic check,No,1
+US-1540,0,No,17,Two year,No,No,18.57,327.36,3,Electronic check,Yes,0
+US-1541,0,Yes,36,Two year,Fiber optic,Yes,77.94,2814.76,2,Electronic check,Yes,0
+US-1542,0,No,19,One year,DSL,No,73.68,1383.12,5,Credit card,Yes,1
+US-1543,0,Yes,64,One year,DSL,Yes,47.11,3031.08,0,Credit card,No,0
+US-1544,0,No,11,Month-to-month,DSL,Yes,55.65,596.77,3,Credit card,Yes,1
+US-1545,0,No,54,Month-to-month,DSL,No,60.1,3250.95,3,Credit card,Yes,0
+US-1546,1,No,45,Two year,DSL,No,59.8,2698.07,0,Electronic check,Yes,0
+US-1547,0,No,47,Month-to-month,No,No,18.05,798.91,1,Credit card,Yes,0
+US-1548,0,Yes,12,Month-to-month,Fiber optic,No,92.55,1116.69,0,Credit card,Yes,1
+US-1549,0,No,21,One year,DSL,No,56.51,1226.03,1,Electronic check,Yes,0
+US-1550,0,No,11,Month-to-month,DSL,No,74.16,784.38,1,Electronic check,No,1
+US-1551,0,No,5,Two year,Fiber optic,Yes,77.16,384.99,0,Mailed check,Yes,1
+US-1552,0,No,56,Month-to-month,DSL,No,55.62,3085.51,4,Electronic check,Yes,1
+US-1553,0,No,20,Two year,No,No,23.03,447.19,1,Electronic check,No,0
+US-1554,0,Yes,41,Month-to-month,Fiber optic,Yes,87.58,3561.83,3,Credit card,No,1
+US-1555,0,Yes,46,Two year,Fiber optic,No,99.96,4600.55,2,Credit card,Yes,0
+US-1556,1,No,12,Month-to-month,Fiber optic,No,79.7,968.3,2,Electronic check,Yes,1
+US-1557,1,Yes,70,Month-to-month,DSL,Yes,51.63,3620.25,2,Mailed check,No,0
+US-1558,0,No,17,Two year,Fiber optic,No,102.81,1733.82,2,Credit card,Yes,0
+US-1559,0,No,19,Month-to-month,Fiber optic,Yes,92.51,1748.55,2,Bank transfer,Yes,1
+US-1560,0,Yes,26,Month-to-month,Fiber optic,Yes,88.68,2309.76,2,Electronic check,Yes,0
+US-1561,0,Yes,48,Month-to-month,DSL,No,50.08,2390.36,2,Bank transfer,Yes,1
+US-1562,1,No,52,One year,Fiber optic,Yes,78.44,4058.95,0,Credit card,Yes,0
+US-1563,1,Yes,70,Month-to-month,Fiber optic,No,70.47,4929.31,4,Credit card,No,0
+US-1564,0,No,55,Two year,No,No,19.1,1036.33,1,Electronic check,No,0
+US-1565,0,Yes,33,Month-to-month,Fiber optic,Yes,95.06,3143.15,2,Electronic check,Yes,1
+US-1566,0,No,62,Month-to-month,Fiber optic,Yes,110.13,6847.54,1,Credit card,Yes,0
+US-1567,0,Yes,23,Two year,Fiber optic,Yes,82.92,1946.12,0,Electronic check,No,0
+US-1568,0,No,15,One year,Fiber optic,Yes,84.75,1276.32,0,Bank transfer,Yes,0
+US-1569,0,No,27,Two year,Fiber optic,No,75.2,2040.09,1,Electronic check,Yes,0
+US-1570,0,No,64,Two year,Fiber optic,No,87.49,5590.37,2,Electronic check,No,0
+US-1571,0,Yes,51,Month-to-month,Fiber optic,No,71.67,3647.11,2,Mailed check,No,0
+US-1572,0,No,53,Month-to-month,No,No,29.01,1556.79,1,Electronic check,Yes,1
+US-1573,0,No,51,Month-to-month,Fiber optic,No,100.29,5110.65,1,Credit card,No,0
+US-1574,0,Yes,47,One year,No,No,29.89,1405.92,0,Electronic check,Yes,0
+US-1575,0,Yes,4,Two year,Fiber optic,Yes,109.73,457.26,1,Credit card,Yes,1
+US-1576,1,Yes,7,Month-to-month,No,No,23.68,161.73,2,Credit card,Yes,1
+US-1577,0,No,35,Month-to-month,No,No,24.24,870.91,2,Electronic check,No,1
+US-1578,0,No,48,Month-to-month,Fiber optic,No,78.58,3780.44,5,Bank transfer,No,1
+US-1579,0,No,72,Two year,No,No,23.54,1701.71,0,Electronic check,No,0
+US-1580,0,Yes,45,Month-to-month,DSL,Yes,72.09,3234.33,0,Bank transfer,Yes,0
+US-1581,0,Yes,72,Month-to-month,No,No,18.61,1347.56,3,Mailed check,Yes,1
+US-1582,0,No,19,Month-to-month,Fiber optic,Yes,108.86,2061.9,3,Electronic check,Yes,1
+US-1583,0,No,63,Two year,DSL,No,55.23,3486.53,0,Mailed check,Yes,0
+US-1584,0,No,38,One year,Fiber optic,Yes,110.48,4196.71,0,Bank transfer,Yes,1
+US-1585,0,Yes,67,One year,No,No,29.29,1976.93,1,Credit card,No,0
+US-1586,1,No,59,Month-to-month,DSL,Yes,65.13,3842.19,1,Electronic check,No,0
+US-1587,1,Yes,69,Month-to-month,Fiber optic,No,99.9,6923.67,2,Mailed check,Yes,1
+US-1588,1,Yes,13,One year,Fiber optic,No,90.37,1170.68,1,Electronic check,Yes,1
+US-1589,1,No,47,Two year,No,No,28.03,1309.39,0,Credit card,Yes,0
+US-1590,1,No,61,Month-to-month,Fiber optic,No,113.27,6914.66,1,Electronic check,No,0
+US-1591,0,No,31,Month-to-month,DSL,Yes,68.25,2131.92,1,Bank transfer,No,0
+US-1592,1,Yes,22,Month-to-month,DSL,Yes,63.66,1416.57,0,Electronic check,No,1
+US-1593,0,Yes,43,Month-to-month,Fiber optic,No,97.31,4186.83,1,Mailed check,Yes,0
+US-1594,0,No,67,Two year,Fiber optic,Yes,108.23,7256.5,0,Credit card,Yes,0
+US-1595,0,No,54,Month-to-month,No,No,24.49,1327.57,0,Bank transfer,No,0
+US-1596,0,Yes,10,Month-to-month,DSL,No,69.12,675.03,1,Bank transfer,No,1
+US-1597,1,Yes,42,Month-to-month,Fiber optic,Yes,92.9,3917.16,0,Mailed check,Yes,0
+US-1598,1,Yes,64,Month-to-month,DSL,No,46.87,2980.81,4,Credit card,Yes,0
+US-1599,1,No,21,Month-to-month,DSL,Yes,56.52,1170.78,1,Mailed check,Yes,0
+US-1600,1,Yes,66,Month-to-month,Fiber optic,No,90.0,5940.83,2,Credit card,No,0
+US-1601,0,Yes,41,Month-to-month,Fiber optic,No,76.37,3126.37,1,Mailed check,No,0
+US-1602,1,Yes,24,One year,Fiber optic,No,74.61,1802.58,3,Mailed check,No,0
+US-1603,1,Yes,35,Month-to-month,No,No,24.43,861.76,2,Electronic check,Yes,1
+US-1604,1,Yes,56,Month-to-month,Fiber optic,Yes,73.83,4136.55,2,Mailed check,Yes,1
+US-1605,0,No,30,Two year,No,No,21.64,632.32,2,Electronic check,Yes,0
+US-1606,0,Yes,57,One year,No,No,26.94,1535.98,0,Credit card,No,0
+US-1607,0,No,47,Two year,Fiber optic,No,113.4,5329.01,1,Bank transfer,Yes,0
+US-1608,0,Yes,35,Month-to-month,No,No,26.61,934.68,1,Credit card,No,0
+US-1609,0,No,19,Month-to-month,Fiber optic,No,114.67,2172.28,1,Electronic check,Yes,1
+US-1610,1,No,8,Month-to-month,DSL,Yes,65.95,535.44,2,Electronic check,No,1
+US-1611,0,No,26,Month-to-month,Fiber optic,No,83.22,2158.52,2,Credit card,No,0
+US-1612,0,No,71,Month-to-month,DSL,Yes,65.16,4632.8,0,Electronic check,Yes,0
+US-1613,1,Yes,30,Two year,Fiber optic,Yes,101.6,3059.94,0,Mailed check,No,1
+US-1614,0,Yes,7,Month-to-month,Fiber optic,No,86.73,599.09,1,Credit card,Yes,1
+US-1615,0,No,67,Month-to-month,DSL,Yes,45.53,3038.93,2,Mailed check,Yes,0
+US-1616,1,No,65,One year,DSL,No,66.1,4303.65,1,Electronic check,Yes,0
+US-1617,0,No,36,Month-to-month,No,No,18.26,637.54,3,Credit card,No,1
+US-1618,0,No,25,One year,Fiber optic,Yes,98.4,2476.67,0,Electronic check,No,0
+US-1619,0,No,37,One year,DSL,No,49.91,1846.83,2,Credit card,Yes,0
+US-1620,1,No,1,Two year,Fiber optic,No,95.45,93.73,1,Electronic check,No,0
+US-1621,0,Yes,15,Two year,Fiber optic,No,92.68,1398.39,1,Bank transfer,No,0
+US-1622,0,No,37,Month-to-month,Fiber optic,Yes,70.61,2619.83,0,Electronic check,No,0
+US-1623,0,No,13,Month-to-month,No,No,22.35,290.65,3,Bank transfer,Yes,1
+US-1624,0,Yes,8,Two year,Fiber optic,Yes,97.05,789.58,0,Electronic check,Yes,0
+US-1625,0,No,5,Two year,Fiber optic,No,108.19,530.86,1,Credit card,No,0
+US-1626,0,Yes,60,Month-to-month,No,No,28.66,1730.29,1,Mailed check,Yes,0
+US-1627,0,No,1,Two year,No,No,23.81,18.0,0,Electronic check,Yes,0
+US-1628,1,Yes,36,Month-to-month,DSL,Yes,66.85,2414.26,1,Bank transfer,No,1
+US-1629,0,No,35,Two year,DSL,Yes,54.49,1902.23,0,Mailed check,Yes,0
+US-1630,0,No,66,Month-to-month,DSL,No,55.27,3628.15,0,Electronic check,No,0
+US-1631,0,Yes,63,Month-to-month,Fiber optic,No,78.75,4965.1,3,Electronic check,Yes,0
+US-1632,0,No,23,Two year,Fiber optic,No,95.29,2191.15,1,Mailed check,No,0
+US-1633,0,No,9,Month-to-month,Fiber optic,Yes,84.16,734.3,2,Electronic check,Yes,1
+US-1634,1,No,34,Month-to-month,No,No,19.01,614.64,1,Electronic check,Yes,1
+US-1635,0,Yes,46,Month-to-month,Fiber optic,Yes,100.83,4635.9,1,Electronic check,Yes,0
+US-1636,0,Yes,4,Two year,DSL,Yes,66.23,289.19,0,Bank transfer,No,0
+US-1637,0,Yes,30,Two year,DSL,No,55.8,1678.82,4,Mailed check,No,0
+US-1638,0,No,72,One year,Fiber optic,No,73.45,5278.38,0,Electronic check,Yes,0
+US-1639,0,No,3,One year,Fiber optic,No,89.18,283.77,0,Credit card,Yes,0
+US-1640,1,No,14,Two year,Fiber optic,No,89.91,1272.35,1,Credit card,No,0
+US-1641,0,No,60,Month-to-month,No,No,26.02,1580.27,2,Electronic check,Yes,0
+US-1642,0,No,45,Month-to-month,DSL,No,54.46,2460.96,2,Electronic check,No,1
+US-1643,0,No,34,One year,Fiber optic,No,100.72,3437.77,1,Credit card,Yes,1
+US-1644,1,Yes,45,Month-to-month,Fiber optic,Yes,109.22,4925.87,0,Mailed check,No,0
+US-1645,0,No,61,Month-to-month,Fiber optic,No,80.69,4914.93,3,Electronic check,No,1
+US-1646,0,Yes,16,Month-to-month,DSL,No,74.37,1165.36,1,Mailed check,No,0
+US-1647,0,No,66,Month-to-month,Fiber optic,No,87.39,5759.92,2,Bank transfer,No,1
+US-1648,0,No,40,Two year,DSL,No,53.02,2137.37,1,Electronic check,Yes,0
+US-1649,0,No,17,Month-to-month,No,No,23.06,386.3,2,Bank transfer,Yes,1
+US-1650,1,Yes,34,One year,DSL,No,47.83,1624.04,0,Bank transfer,No,0
+US-1651,0,Yes,16,Month-to-month,Fiber optic,No,75.66,1193.07,0,Mailed check,Yes,1
+US-1652,0,Yes,60,Month-to-month,Fiber optic,No,88.65,5310.73,3,Credit card,No,1
+US-1653,0,Yes,66,Month-to-month,No,No,27.15,1791.76,0,Electronic check,No,0
+US-1654,0,Yes,66,Two year,DSL,No,72.01,4760.05,0,Mailed check,Yes,0
+US-1655,1,No,13,One year,DSL,Yes,64.94,837.34,0,Mailed check,Yes,0
+US-1656,0,No,56,Two year,DSL,Yes,48.16,2689.03,1,Mailed check,Yes,0
+US-1657,0,Yes,31,One year,DSL,No,65.16,2032.59,0,Electronic check,Yes,0
+US-1658,0,Yes,34,One year,DSL,No,64.06,2182.92,1,Electronic check,Yes,0
+US-1659,0,Yes,39,One year,Fiber optic,Yes,106.26,4150.87,0,Electronic check,Yes,0
+US-1660,0,No,67,Two year,DSL,No,69.76,4696.84,1,Electronic check,Yes,0
+US-1661,0,No,8,Two year,DSL,Yes,71.05,560.82,1,Electronic check,Yes,1
+US-1662,0,No,55,Month-to-month,No,No,22.97,1262.61,2,Bank transfer,Yes,0
+US-1663,0,No,27,Month-to-month,Fiber optic,Yes,101.4,2746.07,1,Electronic check,Yes,0
+US-1664,1,No,53,One year,Fiber optic,No,82.07,4336.64,3,Bank transfer,Yes,1
+US-1665,1,No,39,One year,DSL,Yes,74.98,2927.66,0,Electronic check,No,0
+US-1666,0,Yes,65,Month-to-month,No,No,20.1,1306.83,3,Electronic check,Yes,1
+US-1667,1,No,17,Two year,DSL,Yes,45.3,811.76,0,Electronic check,Yes,0
+US-1668,1,Yes,30,Two year,No,No,19.79,595.2,2,Electronic check,No,0
+US-1669,0,No,53,Month-to-month,Fiber optic,Yes,104.91,5577.58,1,Mailed check,No,0
+US-1670,1,Yes,13,Two year,DSL,No,58.4,771.65,0,Electronic check,Yes,0
+US-1671,0,No,21,Month-to-month,No,No,23.37,473.42,3,Credit card,Yes,0
+US-1672,1,No,19,Month-to-month,DSL,No,73.65,1376.12,1,Credit card,Yes,0
+US-1673,0,No,53,Month-to-month,DSL,No,72.59,3850.98,3,Mailed check,Yes,1
+US-1674,0,No,19,Month-to-month,No,No,21.73,431.73,1,Bank transfer,No,1
+US-1675,0,Yes,57,Two year,Fiber optic,No,79.41,4530.69,0,Electronic check,No,0
+US-1676,1,Yes,25,Month-to-month,Fiber optic,Yes,108.18,2705.68,1,Mailed check,No,1
+US-1677,0,Yes,31,Month-to-month,DSL,No,72.18,2233.32,3,Bank transfer,Yes,0
+US-1678,0,Yes,55,Month-to-month,Fiber optic,Yes,94.37,5170.49,2,Electronic check,No,1
+US-1679,0,No,23,Month-to-month,Fiber optic,No,98.32,2246.95,1,Electronic check,Yes,1
+US-1680,0,Yes,32,Month-to-month,DSL,No,52.71,1662.39,0,Electronic check,Yes,1
+US-1681,0,No,62,One year,DSL,No,69.02,4262.69,0,Mailed check,Yes,0
+US-1682,1,No,10,Month-to-month,DSL,Yes,63.96,631.71,3,Mailed check,Yes,0
+US-1683,0,No,72,Two year,DSL,No,60.11,4339.56,1,Electronic check,Yes,0
+US-1684,0,Yes,54,Two year,No,No,18.72,1004.2,1,Mailed check,No,0
+US-1685,0,No,52,Month-to-month,Fiber optic,Yes,111.22,5787.27,0,Mailed check,Yes,0
+US-1686,0,No,20,Two year,No,No,25.39,509.83,0,Bank transfer,Yes,0
+US-1687,0,No,32,Month-to-month,Fiber optic,Yes,78.67,2524.93,2,Electronic check,Yes,0
+US-1688,0,No,14,Month-to-month,Fiber optic,No,97.29,1346.54,4,Bank transfer,Yes,1
+US-1689,1,No,50,Month-to-month,DSL,Yes,65.32,3281.89,0,Bank transfer,No,0
+US-1690,0,Yes,28,Month-to-month,Fiber optic,No,93.66,2601.37,2,Bank transfer,No,1
+US-1691,0,No,53,Month-to-month,DSL,Yes,66.54,3519.9,2,Bank transfer,No,0
+US-1692,0,Yes,24,Two year,DSL,Yes,62.44,1498.25,0,Mailed check,Yes,0
+US-1693,0,Yes,22,Month-to-month,Fiber optic,No,112.65,2489.7,2,Electronic check,No,1
+US-1694,1,Yes,30,One year,No,No,18.64,579.89,4,Mailed check,No,1
+US-1695,0,Yes,63,Month-to-month,Fiber optic,No,74.78,4722.66,5,Credit card,Yes,0
+US-1696,0,Yes,4,Two year,DSL,No,50.21,222.08,1,Mailed check,Yes,1
+US-1697,0,Yes,59,Month-to-month,DSL,No,65.71,3864.45,1,Electronic check,No,0
+US-1698,1,No,8,Month-to-month,DSL,No,64.37,532.82,1,Electronic check,Yes,1
+US-1699,0,No,12,Month-to-month,Fiber optic,Yes,110.14,1336.96,3,Credit card,Yes,1
+US-1700,0,No,31,Month-to-month,Fiber optic,No,102.98,3156.44,4,Electronic check,Yes,1
+US-1701,1,Yes,34,Month-to-month,No,No,24.1,816.09,5,Electronic check,Yes,1
+US-1702,0,Yes,49,Two year,DSL,No,74.75,3671.78,2,Electronic check,Yes,0
+US-1703,1,No,57,Month-to-month,Fiber optic,No,81.97,4664.56,1,Credit card,Yes,0
+US-1704,1,Yes,26,One year,Fiber optic,No,107.49,2778.45,0,Electronic check,No,0
+US-1705,0,Yes,18,One year,Fiber optic,No,89.21,1637.49,1,Mailed check,Yes,0
+US-1706,0,No,38,Two year,Fiber optic,No,99.19,3770.89,1,Bank transfer,No,1
+US-1707,0,Yes,50,Month-to-month,Fiber optic,No,102.73,5138.58,3,Electronic check,Yes,0
+US-1708,0,No,8,Month-to-month,Fiber optic,Yes,98.52,768.53,1,Credit card,No,0
+US-1709,0,No,41,Two year,DSL,Yes,49.22,2008.83,0,Mailed check,No,0
+US-1710,0,Yes,6,One year,Fiber optic,No,89.93,526.11,1,Mailed check,No,1
+US-1711,0,Yes,69,Month-to-month,DSL,Yes,61.84,4283.14,1,Credit card,No,0
+US-1712,0,No,44,Month-to-month,Fiber optic,No,108.21,4768.81,0,Credit card,No,1
+US-1713,0,No,64,Month-to-month,Fiber optic,Yes,89.96,5748.88,1,Mailed check,No,0
+US-1714,0,Yes,29,One year,Fiber optic,No,111.34,3237.27,2,Electronic check,Yes,0
+US-1715,0,No,28,One year,No,No,23.28,648.04,0,Credit card,Yes,0
+US-1716,0,Yes,11,Month-to-month,No,No,24.59,274.01,0,Mailed check,No,1
+US-1717,0,No,65,One year,No,No,27.56,1794.85,0,Credit card,Yes,0
+US-1718,1,No,19,One year,Fiber optic,Yes,96.24,1834.86,0,Credit card,No,0
+US-1719,0,Yes,9,Month-to-month,Fiber optic,Yes,113.21,1023.38,1,Electronic check,No,0
+US-1720,0,Yes,27,One year,Fiber optic,No,99.72,2698.76,1,Credit card,Yes,1
+US-1721,1,Yes,34,Two year,No,No,24.27,844.02,2,Electronic check,No,0
+US-1722,1,Yes,44,Month-to-month,Fiber optic,No,71.06,3136.25,1,Bank transfer,Yes,0
+US-1723,0,Yes,68,Two year,No,No,22.96,1556.23,0,Electronic check,Yes,0
+US-1724,0,No,15,Month-to-month,No,No,21.59,322.38,7,Credit card,Yes,1
+US-1725,0,Yes,51,Month-to-month,Fiber optic,No,103.66,5305.11,1,Bank transfer,Yes,1
+US-1726,1,No,13,Month-to-month,DSL,No,51.25,667.94,2,Bank transfer,Yes,0
+US-1727,0,No,49,Month-to-month,DSL,No,51.16,2501.23,1,Credit card,Yes,0
+US-1728,0,No,70,Month-to-month,No,No,20.27,1409.43,1,Mailed check,Yes,0
+US-1729,1,No,56,Month-to-month,DSL,No,48.77,2735.22,2,Mailed check,No,0
+US-1730,1,Yes,51,Two year,No,No,21.73,1095.41,2,Credit card,No,0
+US-1731,0,No,37,Month-to-month,Fiber optic,No,109.87,4084.46,1,Bank transfer,Yes,0
+US-1732,0,No,17,One year,Fiber optic,Yes,104.87,1767.22,0,Credit card,Yes,1
+US-1733,0,Yes,58,Month-to-month,No,No,26.82,1577.73,1,Credit card,No,0
+US-1734,0,Yes,29,Two year,Fiber optic,No,105.88,3066.24,1,Electronic check,No,0
+US-1735,0,No,33,One year,Fiber optic,No,82.12,2693.81,1,Mailed check,Yes,0
+US-1736,0,Yes,60,Month-to-month,Fiber optic,No,109.93,6598.64,4,Electronic check,Yes,1
+US-1737,0,Yes,55,Two year,Fiber optic,Yes,76.18,4175.6,0,Bank transfer,No,0
+US-1738,0,Yes,10,Month-to-month,Fiber optic,No,85.14,851.92,3,Electronic check,No,1
+US-1739,0,Yes,47,Two year,DSL,No,62.6,2933.54,2,Bank transfer,Yes,0
+US-1740,0,No,23,Month-to-month,No,No,19.23,456.47,5,Electronic check,Yes,1
+US-1741,0,No,21,One year,No,No,26.76,564.01,3,Electronic check,Yes,1
+US-1742,0,No,13,Two year,DSL,No,56.62,718.23,0,Electronic check,No,0
+US-1743,0,Yes,33,Month-to-month,Fiber optic,Yes,105.3,3465.94,0,Electronic check,Yes,0
+US-1744,0,Yes,24,Month-to-month,Fiber optic,No,92.18,2222.89,2,Bank transfer,Yes,1
+US-1745,0,No,11,Two year,DSL,Yes,50.43,574.04,1,Electronic check,Yes,0
+US-1746,0,Yes,17,Month-to-month,No,No,26.82,455.26,3,Electronic check,No,1
+US-1747,0,Yes,68,Month-to-month,DSL,Yes,52.56,3558.41,1,Electronic check,No,0
+US-1748,0,No,47,Month-to-month,DSL,No,59.72,2822.65,2,Bank transfer,No,0
+US-1749,0,Yes,25,Month-to-month,Fiber optic,No,73.4,1845.51,2,Credit card,No,0
+US-1750,1,No,21,Two year,Fiber optic,No,97.8,2073.4,1,Electronic check,Yes,0
+US-1751,0,Yes,12,Month-to-month,Fiber optic,No,99.96,1203.87,0,Bank transfer,No,1
+US-1752,0,Yes,37,Month-to-month,Fiber optic,Yes,87.04,3212.67,1,Mailed check,Yes,0
+US-1753,0,Yes,42,One year,Fiber optic,Yes,112.95,4751.65,1,Electronic check,No,1
+US-1754,1,No,17,Two year,Fiber optic,No,109.34,1863.67,1,Bank transfer,Yes,1
+US-1755,0,No,48,Month-to-month,DSL,Yes,66.24,3170.9,0,Electronic check,Yes,0
+US-1756,0,No,28,Month-to-month,Fiber optic,Yes,102.11,2862.06,2,Bank transfer,Yes,1
+US-1757,0,No,41,Two year,DSL,Yes,52.57,2152.44,0,Electronic check,No,0
+US-1758,0,Yes,47,One year,DSL,Yes,64.7,3052.05,0,Credit card,No,0
+US-1759,0,No,18,Month-to-month,Fiber optic,No,78.92,1427.94,2,Electronic check,Yes,1
+US-1760,1,No,71,Month-to-month,DSL,Yes,49.32,3485.95,3,Mailed check,Yes,0
+US-1761,0,No,13,Month-to-month,DSL,No,74.98,957.45,1,Credit card,No,0
+US-1762,0,Yes,13,Month-to-month,DSL,Yes,63.67,826.36,0,Electronic check,Yes,1
+US-1763,0,No,31,Month-to-month,No,No,23.17,718.76,3,Mailed check,No,1
+US-1764,1,Yes,2,Two year,No,No,21.46,54.33,1,Electronic check,No,0
+US-1765,0,Yes,16,Month-to-month,Fiber optic,No,97.18,1562.58,2,Mailed check,Yes,1
+US-1766,0,No,9,One year,No,No,18.6,189.28,0,Electronic check,Yes,0
+US-1767,0,No,38,Month-to-month,Fiber optic,Yes,74.26,2814.87,1,Electronic check,Yes,1
+US-1768,0,Yes,54,Two year,Fiber optic,No,71.48,3852.06,0,Bank transfer,Yes,0
+US-1769,0,Yes,56,One year,DSL,No,59.98,3344.48,0,Mailed check,Yes,0
+US-1770,1,No,45,Month-to-month,Fiber optic,Yes,97.03,4377.59,2,Bank transfer,Yes,0
+US-1771,0,No,34,Month-to-month,Fiber optic,No,72.81,2475.87,2,Electronic check,Yes,0
+US-1772,1,No,9,Month-to-month,Fiber optic,Yes,102.46,894.34,2,Electronic check,No,1
+US-1773,0,No,8,Two year,Fiber optic,No,80.37,645.99,4,Mailed check,No,0
+US-1774,0,No,7,Two year,Fiber optic,Yes,100.83,709.8,0,Mailed check,Yes,0
+US-1775,1,Yes,36,Month-to-month,Fiber optic,No,114.19,4108.67,0,Electronic check,Yes,1
+US-1776,0,No,18,Month-to-month,No,No,26.29,477.67,2,Electronic check,Yes,1
+US-1777,0,Yes,3,Month-to-month,Fiber optic,Yes,109.74,310.92,1,Electronic check,Yes,1
+US-1778,0,Yes,28,One year,Fiber optic,No,112.67,3179.38,0,Electronic check,No,0
+US-1779,0,No,70,Month-to-month,Fiber optic,Yes,91.9,6438.7,1,Electronic check,Yes,0
+US-1780,0,Yes,44,Month-to-month,Fiber optic,Yes,101.6,4443.79,0,Electronic check,No,0
+US-1781,0,No,21,Month-to-month,Fiber optic,No,108.34,2275.05,7,Bank transfer,Yes,1
+US-1782,0,No,28,Month-to-month,DSL,No,55.7,1565.7,1,Mailed check,No,0
+US-1783,0,No,54,One year,Fiber optic,Yes,81.76,4398.35,0,Electronic check,Yes,0
+US-1784,1,No,54,Month-to-month,DSL,Yes,73.4,3971.6,3,Electronic check,No,1
+US-1785,0,No,65,One year,Fiber optic,Yes,102.68,6699.41,2,Electronic check,No,1
+US-1786,0,No,21,Month-to-month,Fiber optic,Yes,79.89,1668.02,1,Mailed check,No,1
+US-1787,0,No,13,Month-to-month,Fiber optic,Yes,90.21,1179.16,1,Credit card,No,1
+US-1788,0,Yes,57,One year,DSL,No,68.89,3929.86,3,Bank transfer,Yes,0
+US-1789,0,No,49,Two year,Fiber optic,Yes,94.62,4650.9,0,Bank transfer,No,0
+US-1790,1,Yes,54,Two year,DSL,Yes,64.5,3481.37,0,Credit card,Yes,0
+US-1791,0,No,10,Month-to-month,No,No,27.05,254.5,0,Electronic check,Yes,1
+US-1792,0,No,53,Month-to-month,No,No,25.46,1362.94,2,Electronic check,Yes,0
+US-1793,0,No,44,Two year,No,No,24.48,1062.01,2,Bank transfer,No,0
+US-1794,1,Yes,47,Month-to-month,Fiber optic,No,103.73,4902.44,2,Electronic check,No,1
+US-1795,0,Yes,53,Month-to-month,Fiber optic,Yes,102.74,5453.63,3,Mailed check,No,1
+US-1796,0,No,46,Two year,DSL,Yes,63.9,2930.42,0,Bank transfer,No,0
+US-1797,0,Yes,13,Two year,DSL,Yes,55.79,741.9,1,Bank transfer,Yes,0
+US-1798,0,Yes,37,Two year,Fiber optic,No,88.26,3265.48,1,Electronic check,No,0
+US-1799,0,Yes,24,Two year,Fiber optic,Yes,113.67,2724.76,0,Mailed check,No,0
+US-1800,0,No,2,Two year,No,No,19.35,28.49,0,Bank transfer,Yes,0
+US-1801,1,No,14,Month-to-month,DSL,No,53.06,714.67,2,Credit card,Yes,1
+US-1802,0,Yes,10,Month-to-month,No,No,23.91,248.17,6,Bank transfer,No,1
+US-1803,0,Yes,35,One year,Fiber optic,Yes,107.65,3743.33,1,Credit card,No,0
+US-1804,0,Yes,25,Month-to-month,Fiber optic,No,77.37,1922.35,2,Electronic check,No,1
+US-1805,0,No,3,Month-to-month,DSL,Yes,53.31,166.42,3,Mailed check,No,1
+US-1806,0,No,17,Month-to-month,DSL,No,46.97,790.98,3,Electronic check,No,1
+US-1807,0,Yes,12,Month-to-month,Fiber optic,No,101.77,1223.6,1,Electronic check,No,1
+US-1808,0,Yes,54,One year,Fiber optic,No,80.72,4340.67,1,Credit card,No,0
+US-1809,1,Yes,24,Month-to-month,DSL,Yes,56.66,1354.61,0,Credit card,No,1
+US-1810,0,No,29,Month-to-month,Fiber optic,Yes,89.97,2611.58,3,Electronic check,Yes,1
+US-1811,0,No,43,Month-to-month,No,No,28.7,1219.83,1,Electronic check,No,0
+US-1812,1,Yes,25,One year,No,No,22.94,598.8,2,Electronic check,Yes,0
+US-1813,0,Yes,60,Month-to-month,No,No,19.74,1174.84,4,Credit card,No,1
+US-1814,0,Yes,65,Month-to-month,Fiber optic,Yes,93.59,6104.03,4,Electronic check,Yes,0
+US-1815,0,No,28,One year,DSL,Yes,73.89,2066.4,1,Electronic check,Yes,0
+US-1816,0,Yes,16,Month-to-month,Fiber optic,Yes,97.35,1534.07,0,Electronic check,Yes,1
+US-1817,0,No,47,Month-to-month,Fiber optic,No,114.25,5352.7,3,Mailed check,No,0
+US-1818,1,No,58,Month-to-month,DSL,Yes,70.23,4075.98,1,Credit card,Yes,0
+US-1819,0,Yes,27,Month-to-month,DSL,No,46.08,1259.65,0,Electronic check,Yes,0
+US-1820,0,Yes,53,Two year,Fiber optic,No,99.63,5306.94,1,Mailed check,Yes,0
+US-1821,1,Yes,42,Month-to-month,DSL,No,53.6,2253.12,5,Electronic check,Yes,1
+US-1822,0,No,59,One year,DSL,Yes,61.79,3627.95,1,Mailed check,Yes,0
+US-1823,0,No,47,Month-to-month,DSL,No,53.38,2513.04,6,Bank transfer,Yes,1
+US-1824,0,No,34,Month-to-month,DSL,Yes,55.47,1873.6,1,Electronic check,Yes,0
+US-1825,0,No,37,One year,Fiber optic,No,111.54,4132.86,1,Electronic check,Yes,1
+US-1826,0,Yes,6,Month-to-month,Fiber optic,No,79.3,461.68,1,Credit card,Yes,1
+US-1827,0,No,7,Month-to-month,Fiber optic,No,109.33,733.97,1,Electronic check,Yes,1
+US-1828,0,No,25,Month-to-month,DSL,No,45.91,1167.5,6,Bank transfer,No,1
+US-1829,0,Yes,33,Month-to-month,DSL,Yes,47.73,1571.69,1,Electronic check,Yes,0
+US-1830,0,No,55,One year,Fiber optic,Yes,108.46,5966.04,0,Electronic check,Yes,0
+US-1831,0,No,58,Month-to-month,Fiber optic,No,98.38,5720.99,4,Bank transfer,Yes,1
+US-1832,1,No,7,Two year,Fiber optic,Yes,103.63,753.59,0,Credit card,Yes,0
+US-1833,1,No,57,One year,Fiber optic,No,79.42,4537.74,2,Mailed check,Yes,0
+US-1834,0,No,12,Month-to-month,No,No,24.45,294.95,0,Electronic check,Yes,1
+US-1835,0,No,16,Month-to-month,DSL,Yes,67.12,1080.86,2,Mailed check,No,0
+US-1836,0,Yes,43,Month-to-month,Fiber optic,Yes,98.23,4219.47,2,Mailed check,No,1
+US-1837,0,Yes,7,Two year,Fiber optic,Yes,91.23,639.15,1,Mailed check,Yes,0
+US-1838,0,No,51,Month-to-month,Fiber optic,Yes,113.19,5774.86,0,Bank transfer,No,0
+US-1839,0,Yes,32,Two year,DSL,No,65.28,2077.16,2,Electronic check,Yes,0
+US-1840,1,Yes,8,Month-to-month,Fiber optic,No,110.85,887.12,5,Mailed check,No,1
+US-1841,0,Yes,72,Two year,Fiber optic,No,102.84,7409.99,0,Mailed check,Yes,1
+US-1842,1,Yes,45,Month-to-month,DSL,No,67.06,3025.46,4,Electronic check,No,1
+US-1843,0,No,59,Two year,DSL,No,47.4,2803.16,1,Bank transfer,Yes,0
+US-1844,1,No,4,Month-to-month,DSL,No,55.78,203.03,4,Electronic check,No,1
+US-1845,0,Yes,67,Month-to-month,No,No,28.3,1914.54,2,Electronic check,Yes,0
+US-1846,1,Yes,29,Month-to-month,DSL,Yes,51.98,1524.61,0,Credit card,Yes,0
+US-1847,0,Yes,29,Month-to-month,No,No,19.39,560.87,3,Electronic check,No,1
+US-1848,0,No,28,Two year,Fiber optic,No,84.67,2377.59,0,Electronic check,Yes,0
+US-1849,0,No,44,Month-to-month,No,No,20.65,905.35,5,Mailed check,No,1
+US-1850,1,Yes,4,Month-to-month,No,No,29.1,127.68,3,Credit card,No,1
+US-1851,0,No,9,One year,Fiber optic,Yes,109.06,969.33,1,Credit card,Yes,0
+US-1852,0,No,5,Month-to-month,DSL,Yes,59.99,320.09,0,Mailed check,Yes,1
+US-1853,0,No,56,Month-to-month,DSL,No,46.84,2633.57,2,Electronic check,Yes,0
+US-1854,0,No,50,One year,DSL,Yes,66.44,3332.88,0,Credit card,No,0
+US-1855,1,Yes,15,Month-to-month,Fiber optic,Yes,98.05,1469.17,0,Mailed check,Yes,0
+US-1856,1,No,32,Two year,DSL,Yes,74.12,2350.65,0,Electronic check,Yes,1
+US-1857,0,No,28,Month-to-month,DSL,Yes,61.77,1742.82,3,Credit card,No,0
+US-1858,0,No,22,Month-to-month,Fiber optic,No,85.14,1852.39,1,Electronic check,Yes,1
+US-1859,1,No,17,One year,No,No,24.23,425.35,1,Electronic check,No,1
+US-1860,0,No,59,One year,DSL,Yes,74.38,4376.84,2,Credit card,No,0
+US-1861,0,No,71,Month-to-month,DSL,Yes,65.89,4654.38,1,Mailed check,Yes,0
+US-1862,0,Yes,57,One year,DSL,No,65.16,3714.13,2,Electronic check,Yes,0
+US-1863,0,No,26,Month-to-month,No,No,20.89,560.88,6,Electronic check,No,1
+US-1864,0,No,25,Month-to-month,Fiber optic,Yes,103.46,2572.02,0,Mailed check,Yes,1
+US-1865,0,No,10,Two year,DSL,No,67.51,699.09,1,Electronic check,Yes,0
+US-1866,1,Yes,45,Month-to-month,DSL,Yes,54.52,2463.25,2,Electronic check,Yes,1
+US-1867,1,Yes,11,Month-to-month,DSL,No,59.51,656.96,2,Bank transfer,No,1
+US-1868,0,Yes,53,Two year,DSL,No,53.84,2846.99,1,Credit card,No,0
+US-1869,0,No,72,Two year,No,No,21.1,1513.71,2,Mailed check,Yes,0
+US-1870,0,No,68,Month-to-month,Fiber optic,No,71.17,4846.01,1,Bank transfer,Yes,0
+US-1871,0,Yes,28,Month-to-month,Fiber optic,No,82.83,2331.93,0,Bank transfer,No,0
+US-1872,0,No,65,One year,No,No,24.65,1593.35,1,Bank transfer,No,0
+US-1873,0,No,49,Two year,DSL,No,45.05,2195.35,1,Electronic check,Yes,0
+US-1874,1,No,47,Two year,Fiber optic,Yes,82.74,3885.57,2,Credit card,Yes,0
+US-1875,1,No,52,Month-to-month,No,No,28.58,1507.06,1,Mailed check,No,0
+US-1876,0,No,54,Month-to-month,Fiber optic,Yes,96.71,5204.09,0,Electronic check,No,0
+US-1877,0,No,60,Month-to-month,Fiber optic,Yes,97.35,5858.14,2,Electronic check,No,1
+US-1878,1,Yes,57,Two year,DSL,No,57.1,3255.33,1,Bank transfer,No,0
+US-1879,0,No,47,One year,DSL,Yes,65.29,3043.84,0,Electronic check,No,0
+US-1880,0,No,31,One year,DSL,Yes,50.7,1564.78,0,Electronic check,Yes,0
+US-1881,0,No,46,Two year,Fiber optic,Yes,106.84,4923.79,0,Bank transfer,No,0
+US-1882,1,No,26,Month-to-month,Fiber optic,Yes,75.25,1983.53,2,Credit card,No,1
+US-1883,1,No,5,Month-to-month,No,No,25.87,109.44,2,Bank transfer,No,1
+US-1884,0,Yes,52,Month-to-month,Fiber optic,Yes,85.35,4395.91,1,Electronic check,Yes,0
+US-1885,1,No,54,Month-to-month,No,No,26.97,1436.74,4,Electronic check,Yes,0
+US-1886,0,Yes,33,Month-to-month,No,No,24.6,828.76,3,Bank transfer,No,1
+US-1887,0,Yes,50,Month-to-month,DSL,No,58.57,2901.59,2,Electronic check,Yes,0
+US-1888,1,No,38,One year,Fiber optic,No,77.62,2972.02,0,Bank transfer,Yes,0
+US-1889,0,No,27,Two year,DSL,No,64.1,1748.92,1,Electronic check,No,0
+US-1890,0,Yes,15,Month-to-month,Fiber optic,No,113.86,1710.77,1,Credit card,Yes,0
+US-1891,0,Yes,61,Month-to-month,No,No,27.91,1693.11,1,Mailed check,No,0
+US-1892,0,No,21,Month-to-month,DSL,Yes,46.8,983.63,2,Electronic check,No,0
+US-1893,0,Yes,46,Two year,Fiber optic,Yes,86.93,4007.95,1,Credit card,Yes,0
+US-1894,0,No,69,Two year,Fiber optic,Yes,111.65,7710.73,0,Electronic check,No,0
+US-1895,0,No,6,One year,Fiber optic,Yes,92.64,581.93,0,Electronic check,No,0
+US-1896,0,No,38,Month-to-month,Fiber optic,No,99.8,3788.5,3,Credit card,Yes,1
+US-1897,0,Yes,62,Month-to-month,Fiber optic,Yes,111.07,6866.83,4,Electronic check,Yes,0
+US-1898,1,Yes,62,Month-to-month,DSL,Yes,71.21,4392.86,0,Mailed check,No,0
+US-1899,1,No,46,One year,DSL,No,60.05,2737.14,1,Electronic check,Yes,0
+US-1900,0,No,13,Two year,DSL,No,58.13,758.63,1,Electronic check,Yes,0
+US-1901,1,Yes,3,Two year,Fiber optic,No,85.29,252.35,0,Electronic check,Yes,0
+US-1902,1,No,6,Month-to-month,DSL,No,66.57,399.91,2,Bank transfer,Yes,1
+US-1903,0,Yes,8,Two year,No,No,21.44,163.46,3,Bank transfer,Yes,1
+US-1904,0,No,44,Two year,Fiber optic,No,81.24,3557.91,1,Electronic check,No,0
+US-1905,0,Yes,33,Month-to-month,Fiber optic,Yes,86.03,2848.21,1,Electronic check,No,0
+US-1906,0,No,50,Month-to-month,Fiber optic,No,77.97,3861.55,3,Credit card,Yes,1
+US-1907,0,Yes,11,Two year,Fiber optic,Yes,101.28,1102.06,0,Credit card,Yes,0
+US-1908,0,Yes,28,Month-to-month,No,No,25.39,722.72,3,Mailed check,No,1
+US-1909,0,Yes,70,Two year,DSL,No,59.49,4150.79,2,Credit card,Yes,0
+US-1910,0,Yes,41,Two year,DSL,No,56.71,2330.99,1,Bank transfer,No,0
+US-1911,0,No,16,One year,Fiber optic,Yes,110.91,1762.56,0,Electronic check,No,0
+US-1912,0,No,68,Two year,DSL,No,45.87,3112.32,0,Electronic check,No,0
+US-1913,0,Yes,48,One year,DSL,No,68.07,3275.98,1,Electronic check,Yes,0
+US-1914,0,Yes,56,One year,Fiber optic,Yes,110.59,6173.87,0,Credit card,Yes,0
+US-1915,0,No,64,Month-to-month,DSL,No,58.39,3748.14,0,Bank transfer,Yes,0
+US-1916,0,No,59,Month-to-month,Fiber optic,Yes,94.78,5592.71,0,Bank transfer,Yes,0
+US-1917,0,No,62,Month-to-month,DSL,No,73.33,4565.31,1,Electronic check,Yes,0
+US-1918,0,Yes,11,One year,No,No,20.55,229.17,0,Bank transfer,No,0
+US-1919,1,Yes,18,Month-to-month,Fiber optic,No,93.41,1665.34,2,Bank transfer,No,1
+US-1920,0,No,19,Month-to-month,Fiber optic,No,91.36,1761.76,4,Credit card,No,1
+US-1921,0,Yes,55,Month-to-month,Fiber optic,No,81.63,4474.86,2,Electronic check,No,0
+US-1922,0,No,26,One year,No,No,27.82,719.91,3,Bank transfer,Yes,0
+US-1923,0,Yes,6,Two year,DSL,No,71.99,446.3,2,Electronic check,No,1
+US-1924,0,No,4,Two year,No,No,27.38,81.32,2,Bank transfer,Yes,1
+US-1925,1,Yes,29,Month-to-month,Fiber optic,No,78.79,2306.51,5,Bank transfer,Yes,1
+US-1926,0,No,59,Two year,Fiber optic,Yes,73.9,4342.84,1,Electronic check,Yes,0
+US-1927,0,No,17,One year,Fiber optic,No,97.25,1646.43,0,Bank transfer,No,0
+US-1928,0,No,43,Month-to-month,DSL,Yes,46.71,2012.86,0,Electronic check,No,0
+US-1929,0,Yes,66,One year,Fiber optic,No,100.28,6617.85,3,Credit card,Yes,0
+US-1930,1,No,34,Month-to-month,Fiber optic,Yes,93.87,3203.42,2,Electronic check,Yes,1
+US-1931,0,No,8,Two year,DSL,Yes,64.88,495.03,0,Bank transfer,Yes,0
+US-1932,0,No,13,Month-to-month,Fiber optic,No,96.56,1266.19,3,Credit card,Yes,1
+US-1933,0,No,8,Month-to-month,DSL,Yes,57.68,473.55,1,Electronic check,Yes,1
+US-1934,1,No,65,One year,DSL,Yes,51.03,3332.39,0,Mailed check,No,0
+US-1935,0,No,43,Month-to-month,DSL,Yes,54.17,2305.47,1,Mailed check,No,0
+US-1936,1,Yes,39,Month-to-month,DSL,Yes,60.74,2346.83,1,Electronic check,Yes,0
+US-1937,0,No,59,One year,Fiber optic,Yes,99.33,5855.33,0,Mailed check,No,0
+US-1938,1,No,44,Month-to-month,DSL,Yes,68.38,2988.31,1,Bank transfer,Yes,0
+US-1939,0,Yes,9,One year,No,No,27.21,217.83,1,Credit card,No,1
+US-1940,0,Yes,37,Month-to-month,Fiber optic,No,113.77,4203.71,1,Credit card,Yes,1
+US-1941,0,Yes,36,One year,DSL,Yes,53.58,1932.39,2,Mailed check,No,1
+US-1942,0,No,28,One year,Fiber optic,No,73.2,2091.58,4,Bank transfer,No,0
+US-1943,0,No,42,Month-to-month,No,No,22.15,938.53,2,Credit card,No,0
+US-1944,0,No,43,One year,Fiber optic,Yes,103.45,4474.63,0,Mailed check,Yes,0
+US-1945,1,No,42,One year,DSL,No,58.14,2441.22,1,Electronic check,No,0
+US-1946,1,Yes,66,Two year,No,No,27.81,1843.85,2,Mailed check,Yes,0
+US-1947,0,Yes,55,One year,Fiber optic,No,94.72,5207.41,2,Credit card,Yes,0
+US-1948,0,Yes,72,Two year,DSL,Yes,72.89,5288.33,0,Mailed check,Yes,0
+US-1949,0,Yes,48,Month-to-month,DSL,No,73.44,3514.84,5,Bank transfer,No,0
+US-1950,0,Yes,22,Month-to-month,Fiber optic,No,73.12,1600.39,1,Electronic check,No,1
+US-1951,0,Yes,27,Two year,DSL,No,58.69,1596.58,2,Credit card,Yes,0
+US-1952,1,No,67,Month-to-month,No,No,25.32,1699.55,6,Mailed check,Yes,0
+US-1953,0,No,13,Month-to-month,Fiber optic,No,81.51,1053.27,2,Bank transfer,No,1
+US-1954,0,No,45,Month-to-month,No,No,22.88,1044.01,4,Electronic check,Yes,1
+US-1955,0,No,10,Month-to-month,Fiber optic,Yes,100.5,1004.38,2,Electronic check,Yes,1
+US-1956,0,No,9,Month-to-month,DSL,No,51.8,465.48,3,Bank transfer,Yes,1
+US-1957,1,Yes,54,Two year,DSL,No,63.06,3408.7,1,Credit card,No,0
+US-1958,1,No,27,Month-to-month,Fiber optic,No,101.39,2711.52,1,Electronic check,Yes,1
+US-1959,0,No,34,Month-to-month,Fiber optic,Yes,74.07,2494.48,0,Electronic check,No,1
+US-1960,1,Yes,1,Two year,Fiber optic,No,92.39,108.69,0,Electronic check,Yes,0
+US-1961,0,Yes,32,Two year,DSL,No,52.89,1682.33,1,Electronic check,Yes,0
+US-1962,0,No,71,Month-to-month,DSL,Yes,66.73,4735.84,0,Electronic check,Yes,0
+US-1963,0,Yes,67,Month-to-month,DSL,Yes,50.69,3420.42,1,Bank transfer,Yes,1
+US-1964,0,No,20,Two year,Fiber optic,Yes,110.15,2201.68,0,Credit card,Yes,0
+US-1965,0,No,35,One year,DSL,No,57.93,2024.4,2,Electronic check,Yes,0
+US-1966,0,Yes,17,One year,Fiber optic,No,78.91,1354.91,0,Mailed check,No,0
+US-1967,0,Yes,18,Two year,Fiber optic,No,89.71,1605.81,2,Electronic check,Yes,1
+US-1968,0,Yes,45,One year,No,No,22.9,1048.54,0,Electronic check,No,0
+US-1969,0,Yes,53,Month-to-month,DSL,No,57.87,3080.24,3,Electronic check,No,0
+US-1970,0,Yes,68,One year,DSL,No,62.57,4282.21,1,Mailed check,No,0
+US-1971,0,No,65,Month-to-month,Fiber optic,Yes,93.45,6063.89,1,Electronic check,No,0
+US-1972,0,Yes,1,Two year,Fiber optic,No,76.74,97.24,1,Mailed check,Yes,0
+US-1973,0,No,58,One year,DSL,No,46.97,2732.57,1,Electronic check,Yes,0
+US-1974,1,Yes,26,Month-to-month,No,No,26.75,675.62,3,Electronic check,No,1
+US-1975,0,No,20,Month-to-month,No,No,24.72,455.46,2,Electronic check,No,0
+US-1976,0,Yes,10,Month-to-month,DSL,No,55.77,545.73,5,Credit card,No,1
+US-1977,1,Yes,59,Month-to-month,DSL,No,69.25,4090.14,0,Bank transfer,No,0
+US-1978,0,No,41,One year,Fiber optic,No,87.46,3592.42,1,Credit card,No,0
+US-1979,0,No,5,Month-to-month,Fiber optic,No,105.82,528.21,1,Electronic check,Yes,1
+US-1980,0,Yes,65,Two year,DSL,No,54.17,3520.3,2,Electronic check,No,0
+US-1981,0,No,17,Month-to-month,Fiber optic,No,73.28,1243.87,3,Electronic check,Yes,1
+US-1982,1,No,22,One year,Fiber optic,No,111.97,2478.81,2,Electronic check,Yes,1
+US-1983,1,No,41,Two year,DSL,Yes,56.84,2308.9,1,Bank transfer,Yes,0
+US-1984,0,Yes,68,One year,Fiber optic,Yes,105.67,7189.58,0,Electronic check,Yes,0
+US-1985,0,Yes,69,Month-to-month,No,No,21.35,1460.81,2,Electronic check,Yes,0
+US-1986,0,No,11,Two year,DSL,Yes,64.39,694.69,1,Mailed check,No,0
+US-1987,0,No,56,Month-to-month,DSL,No,71.2,4004.84,2,Mailed check,No,0
+US-1988,0,Yes,51,Month-to-month,Fiber optic,Yes,71.87,3650.62,0,Credit card,No,0
+US-1989,0,No,21,Month-to-month,No,No,27.97,585.28,2,Electronic check,Yes,1
+US-1990,0,No,26,Month-to-month,No,No,24.86,675.74,2,Bank transfer,No,1
+US-1991,0,Yes,19,Two year,Fiber optic,Yes,97.34,1862.03,1,Electronic check,Yes,0
+US-1992,0,No,60,Month-to-month,Fiber optic,Yes,93.54,5605.58,1,Credit card,No,0
+US-1993,0,Yes,71,Two year,Fiber optic,Yes,109.35,7758.26,0,Mailed check,Yes,0
+US-1994,0,No,47,Two year,Fiber optic,No,71.95,3363.24,1,Bank transfer,Yes,0
+US-1995,1,No,71,Month-to-month,DSL,Yes,52.83,3770.44,1,Electronic check,Yes,0
+US-1996,0,No,26,One year,DSL,No,71.27,1868.19,0,Bank transfer,No,0
+US-1997,1,Yes,40,Month-to-month,DSL,No,67.57,2713.1,5,Electronic check,Yes,1
+US-1998,0,Yes,5,Month-to-month,Fiber optic,No,70.79,365.9,2,Mailed check,Yes,1
+US-1999,0,Yes,21,Month-to-month,DSL,Yes,60.51,1259.09,0,Credit card,Yes,0
