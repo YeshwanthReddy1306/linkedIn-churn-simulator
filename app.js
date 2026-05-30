@@ -1,6 +1,6 @@
 // Aegis Churn Simulator Application Core Logic
 
-// Active state object representing the current simulated customer features
+// test comment state object representing the current simulated customer features
 const currentCustomer = {
     SeniorCitizen: 0,
     Partner: "No",
